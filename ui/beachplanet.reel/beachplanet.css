@@ -12,7 +12,6 @@
     height: 100%;
 }
 
-
 /* States -------------------------------- */
 
 .BeachPlanet-playing {
@@ -43,8 +42,6 @@
     -webkit-animation: pop .4s .4s cubic-bezier(.07, .45, .18, .94);
     -webkit-animation-fill-mode: backwards;
 }
-
-
 
 /* View ------------------------- */
 
@@ -247,14 +244,12 @@
 .BeachPlanet-rock-animate {
   transition-property: transform;
   transition-duration: 3s;
-  transform-origin: 50% 50%;
 }
 
 .BeachPlanet-rock-logo-animate {
   transition-property: transform;
-  transition-timing-function: ease-out;
   transition-duration: 3s;
-  transform-origin: 50% 50%;
+  transform: rotateZ(-180deg);
 }
 
 .BeachPlanet-rock-logo-reveal {
@@ -282,14 +277,12 @@
 .BeachPlanet-star-animate {
   transition-property: transform;
   transition-duration: 2s;
-  transform-origin: 50% 50%;
 }
 
 .BeachPlanet-star-logo-animate {
   transition-property: transform;
-  transition-timing-function: ease-out;
   transition-duration: 3s;
-  transform-origin: 50% 50%;
+  transform: rotateZ(-180deg);
 }
 
 .BeachPlanet-star-reveal {
