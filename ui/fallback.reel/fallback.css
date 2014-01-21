@@ -1,0 +1,41 @@
+.Fallback {
+  height: 100%;
+}
+
+.Fallback-substitution {
+  height: 100%;
+}
+
+.Fallback-wrapper {
+  height: 100%;
+  padding: 10px 20px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.Fallback-logo {
+  width: 100%;
+  max-width: 280px;
+}
+
+.Fallback-title {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 0;
+  text-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.25);
+}
+
+.Fallback-subtitle {
+  color: hsla(0, 0%, 0%, 0.5);
+  font-size: 18px;
+}
