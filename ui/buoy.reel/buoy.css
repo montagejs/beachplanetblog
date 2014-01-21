@@ -25,11 +25,11 @@
   width: 100%;
 }
 .animate:hover {
-  -webkit-transform: scale3d(3, 3, 3);
+  transform: scale3d(3, 3, 3);
   cursor: pointer;
 }
 .animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 5s;
   -montage-transform-z-origin: 0%;
 }

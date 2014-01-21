@@ -26,10 +26,10 @@
 }
 
 .open {
-  -webkit-transform: rotateZ(-130deg);
+  transform: rotateZ(-130deg);
 }
 .animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 5s;
-  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }

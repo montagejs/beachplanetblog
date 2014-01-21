@@ -245,13 +245,13 @@
 }
 
 .BeachPlanet-rock-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 3s;
   transform-origin: 50% 50%;
 }
 
 .BeachPlanet-rock-logo-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-timing-function: ease-out;
   transition-duration: 3s;
   transform-origin: 50% 50%;
@@ -266,7 +266,7 @@
 }
 
 .BeachPlanet-door-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 3s;
   transform-origin: 50% 0%;
 }
@@ -280,13 +280,13 @@
 }
 
 .BeachPlanet-star-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 2s;
   transform-origin: 50% 50%;
 }
 
 .BeachPlanet-star-logo-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-timing-function: ease-out;
   transition-duration: 3s;
   transform-origin: 50% 50%;
@@ -301,7 +301,7 @@
 }
 
 .BeachPlanet-dolphin-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 4s;
   transition-timing-function: linear;
   transform: translateY(-1.5);
@@ -316,7 +316,7 @@
 .BeachPlanet-dolphin-logo-animate {
   transform:  rotateY(-200deg) translate3d(400,0,-250);
   -montage-transform-z-origin: 2500%;
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 4s;
 }
 
@@ -334,7 +334,7 @@
 }
 
 .BeachPlanet-buoy-animate {
-  transition-property: -webkit-transform;
+  transition-property: transform;
   transition-duration: 3s;
   -montage-transform-z-origin: 0%;
 }
