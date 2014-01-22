@@ -13,3 +13,11 @@ Installation
 To run the 3D examples in this repository, you will need to have the `npm` package manager and a web server. To install of the necessary library dependencies, run `npm install .` at the command line in the root directory.
 
 After the dependencies have been installed, you will be able to run the content from a web server. It's important to note that you will not be able to view it locally from the "file://" protocol.
+
+Credit
+======
+
+We used sounds from [opengameart](http://opengameart.org)
+
+* music: [White Sands Day Night](http://opengameart.org/content/white-sands-day-night), by MegaJackie
+* sound: [getruby](http://opengameart.org/content/get-ruby-se).
