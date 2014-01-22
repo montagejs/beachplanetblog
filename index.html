@@ -25,15 +25,43 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>MontageJS Application</title>
+    <title>BeachPlanet</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+        
+        html {
+            height: 100%;
+            font-family: 'Acme', sans-serif;
+            background-color: hsl(203, 100%, 71%); /* RBG: 108 198 258 */
+        }
+        
+        body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        /* TODO: replace minimum loader */
+        body { visibility: hidden; }
+        .montage-app-loaded body { visibility: visible; }
+        
+    </style>
+    
+    <script src="node_modules/montage/montage.js" async></script>
+    <script type="text/montage-serialization">
+    {
+        "owner": {
+            "prototype": "montage/ui/loader.reel",
+            "properties": {
+                "mainModule": "ui/fallback.reel",
+                "mainName": "Fallback"
+            }
+        }
+    }
+    </script>
 </head>
 <body>
-
-  <ul>
-    <li><a href="beachplanet.html">Beach Planet</a></li>
-    <li><a href="door.html">Door</a></li>
-    <li><a href="buoy.html">Buoy</a></li>
-  </ul>
-    
+    <span class="loading"></span>
 </body>
 </html>
