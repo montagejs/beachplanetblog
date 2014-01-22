@@ -13,5 +13,3 @@ Installation
 To run the 3D examples in this repository, you will need to have the `npm` package manager and a web server. To install of the necessary library dependencies, run `npm install .` at the command line in the root directory.
 
 After the dependencies have been installed, you will be able to run the content from a web server. It's important to note that you will not be able to view it locally from the "file://" protocol.
-
-To streamline the content for deployment to a remote server, you can use the [mop utility](https://github.com/montagejs/mop).
