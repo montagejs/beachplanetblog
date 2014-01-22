@@ -1,0 +1,1 @@
+montageDefine("15a64b5","ui/list-item.reel/list-item",{dependencies:["montage/ui/component"],factory:function(e,t){var r=e("montage/ui/component").Component;t.ListItem=r.specialize({highlight:{value:!1},constructor:{value:function(){this.super(),this.defineBinding("classList.has('digit-ListItem--highlight')",{"<-":"highlight"})}}})}});

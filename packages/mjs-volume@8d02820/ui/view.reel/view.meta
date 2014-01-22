@@ -1,0 +1,88 @@
+{
+    "scene_property": {
+        "prototype": "montage/core/meta/property-blueprint",
+        "properties": {
+            "name": "scene",
+            "valueType": "object",
+            "blueprint": {
+                "@": "root"
+            }
+        }
+    },
+
+    "viewPoint_property": {
+        "prototype": "montage/core/meta/property-blueprint",
+        "properties": {
+            "name": "viewPoint",
+            "valueType": "object",
+            "blueprint": {
+                "@": "root"
+            }
+        }
+    },
+
+    "width_property": {
+        "prototype": "montage/core/meta/property-blueprint",
+        "properties": {
+            "name": "width",
+            "valueType": "number",
+            "blueprint": {
+                "@": "root"
+            }
+        }
+    },
+    "height_property": {
+        "prototype": "montage/core/meta/property-blueprint",
+        "properties": {
+            "name": "height",
+            "valueType": "number",
+            "blueprint": {
+                "@": "root"
+            }
+        }
+    },
+
+    "root": {
+        "prototype": "montage/core/meta/module-blueprint",
+        "properties": {
+            "name": "View",
+            "propertyBlueprints": [
+                {
+                    "@": "scene_property"
+                },
+                {
+                    "@": "viewPoint_property"
+                },
+                {
+                    "@": "width_property"
+                },
+                {
+                    "@": "height_property"
+                }
+            ],
+            "propertyBlueprintGroups": {
+                "Main": [
+                    {
+                        "@": "scene_property"
+                    },
+                    {
+                        "@": "viewPoint_property"
+                    },
+                    {
+                        "@": "width_property"
+                    },
+                    {
+                        "@": "height_property"
+                    }
+                ]
+            },
+            "blueprintModule": {
+                "%": "ui/view/view.meta"
+            },
+            "exportName": "View",
+            "module": {
+                "%": "ui/view.reel"
+            }
+        }
+    }
+}

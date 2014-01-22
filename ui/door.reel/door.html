@@ -1,91 +1,9 @@
-<!-- Copyright (c) 2013, Fabrice Robinet.
- All rights reserved.
 
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are met:
-
-  * Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
- DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
- LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
- ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
--->
 <html>
 
 <head>
     <link rel="stylesheet" type="text/css" href="door.css" />
-    <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": { "#": "beachplanet" }
-                }
-            },
-
-            "scene": {
-                "prototype": "mjs-volume/runtime/scene",
-                "properties": {
-                    "path": "model/beachplanet/beachplanet.json"
-                }
-            },
-
-            "doorViewPoint": {
-                "prototype": "mjs-volume/runtime/node",
-                "properties": {
-                    "id": "node-Camera_cabin",
-                    "scene": { "@": "scene" }
-                }
-            },
-
-            "door": {
-                "prototype": "mjs-volume/runtime/node",
-                "properties": {
-                    "id": "node_6",
-                    "scene": { "@": "scene" }
-                },
-                "bindings": {
-                    "classList.has('animate')": { "<-": "true" },
-                    "classList.has('open')": { "<-": "@owner.doorOpen" }
-                },
-                "listeners": [{
-                    "type": "action",
-                    "listener": { "@": "owner" }
-                }]
-            },
-
-            "substitution": {
-                "prototype": "montage/ui/substitution.reel",
-                "properties": {
-                    "element": {"#": "substitution"},
-                    "switchValue": "static"
-                },
-                "bindings": {
-                    "switchValue": {"<-": "@owner.viewKey"}
-                }                
-            },
-
-            "viewer": {
-                "prototype": "mjs-volume/ui/view.reel",
-                "properties": {
-                    "allowsViewPointControl" : false,
-                    "element": { "#": "viewer" },
-                    "scene": { "@": "scene" },
-                    "viewPoint": { "@" : "doorViewPoint" }
-                }
-            }
-        }
-    </script>
+    <script type="text/montage-serialization">{"owner":{"properties":{"element":{"#":"beachplanet"}}},"scene":{"prototype":"mjs-volume/runtime/scene","properties":{"path":"model/beachplanet/beachplanet.json"}},"doorViewPoint":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node-Camera_cabin","scene":{"@":"scene"}}},"door":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node_6","scene":{"@":"scene"}},"bindings":{"classList.has('animate')":{"<-":"true"},"classList.has('open')":{"<-":"@owner.doorOpen"}},"listeners":[{"type":"action","listener":{"@":"owner"}}]},"substitution":{"prototype":"montage/ui/substitution.reel","properties":{"element":{"#":"substitution"},"switchValue":"static"},"bindings":{"switchValue":{"<-":"@owner.viewKey"}}},"viewer":{"prototype":"mjs-volume/ui/view.reel","properties":{"allowsViewPointControl":false,"element":{"#":"viewer"},"scene":{"@":"scene"},"viewPoint":{"@":"doorViewPoint"}}}}</script>
 </head>
 
 <body>
@@ -93,11 +11,11 @@
     <div data-montage-id="substitution">
         <div data-arg="static">This demo requires WebGL. Please check your browser has WebGL supported and enabled
         </div>
-        <div data-arg="webgl"  class="beachplanet">
+        <div data-arg="webgl" class="beachplanet">
             <h1 id="top">Open the door</h1>
             <div data-montage-id="viewer" class="stage"></div>
         </div>
     </div>
-</body>
+</div></body>
 
 </html>

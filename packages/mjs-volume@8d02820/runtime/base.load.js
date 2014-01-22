@@ -1,0 +1,1 @@
+montageDefine("8d02820","runtime/base",{dependencies:[],factory:function(e,t){t.Base=Object.create(Object.prototype,{_properties:{value:null,writable:!0},properties:{get:function(){return this._properties},set:function(e){this._properties=e}},__Base_init:{value:function(){this._properties={}}}})}});

@@ -1,0 +1,1 @@
+montageDefine("15a64b5","ui/checkbox.reel/checkbox",{dependencies:["montage/ui/base/abstract-checkbox"],factory:function(e,t){var r=e("montage/ui/base/abstract-checkbox").AbstractCheckbox;t.Checkbox=r.specialize({constructor:{value:function(){this.super()}}})}});

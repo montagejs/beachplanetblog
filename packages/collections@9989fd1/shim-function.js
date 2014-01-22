@@ -1,0 +1,1 @@
+module.exports=Function,Function.noop=function(){},Function.identity=function(e){return e},Function.by=function(e,t){t=t||Object.compare,e=e||Function.identity;var r=function(r,n){return t(e(r),e(n))};return r.compare=t,r.by=e,r},Function.get=function(e){return function(t){return Object.get(t,e)}};
