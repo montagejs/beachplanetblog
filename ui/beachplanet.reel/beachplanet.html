@@ -81,6 +81,25 @@
                 }
             },
 
+            "maxScoreCount": {
+                "prototype": "montage/ui/text.reel",
+                "properties": {
+                    "element": { "#": "maxScoreCount" }
+                },
+                "bindings": {
+                    "value": { "<-": "@owner.MAX_SCORE" }
+                }
+            },
+
+            "logoCount": {
+                "prototype": "montage/ui/text.reel",
+                "properties": {
+                    "element": { "#": "logoCount" }
+                },
+                "bindings": {
+                    "value": { "<-": "@owner.MAX_SCORE" }
+                }
+            },
 
             "seaGullVP": {
                 "prototype": "mjs-volume/runtime/node",
@@ -374,7 +393,7 @@
             <div class="BeachPlanet-score">
                 <label class="BeachPlanet-score-label">Score</label>
                 <span class="BeachPlanet-score-value">
-                    <span data-montage-id="score"></span>/4
+                    <span data-montage-id="score"></span>/<span data-montage-id="maxScoreCount"></span>
                 </span>
             </div>
             <div class="BeachPlanet-cams">
@@ -387,7 +406,7 @@
         <div class="BeachPlanet-overlay BeachPlanet-overlay--intro">
             <img class="BeachPlanet-logo" src="logo.png" title="BeachPlanet">
             <button data-montage-id="playButton" class="BeachPlanet-button BeachPlanet-button--play">Play</button>
-                <h1 class="BeachPlanet-play-title">4 Montage logos are hidden, let's find them!</h1>
+                <h1 class="BeachPlanet-play-title"><span data-montage-id="logoCount"></span> Montage logos are hidden, let's find them!</h1>
                 <h2 class="BeachPlanet-play-subtitle">Learn how to <a class="BeachPlanet-play-link" href="http://montagejs.org/blog/2014/01/22/build-3d-applications-with-montagejs/">build this with MontageJS</a></h2>
 
         </div>
