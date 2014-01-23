@@ -133,6 +133,7 @@ exports.Beachplanet = Component.specialize({
     
 	handleNavItemAction: { 
 		value: function(event) {
+			this.cancelPendingReturnToExploring();
 			this.templateObjects.viewer.stop();
 			this.templateObjects.viewer.viewPoint = event.target.viewPoint;
 			this.templateObjects.viewer.allowsViewPointControl = event.target.viewPoint === this.templateObjects.planetVP;
@@ -155,14 +156,20 @@ exports.Beachplanet = Component.specialize({
 
 	_exploringTimeout: { value: null },
 
+	cancelPendingReturnToExploring: {
+		value: function () {
+			if (this._exploringTimeout != null) {
+				clearTimeout(this._exploringTimeout);
+				this._exploringTimeout = null;
+			}
+		}
+	},
+
 	returnExploringPlanet: {
 		value: function() {
 			if (this.score < this.MAX_SCORE) {
 				var self = this;
-				if (this._exploringTimeout != null) {
-					clearTimeout(this._exploringTimeout);
-					this._exploringTimeout = null;
-				}
+				this.cancelPendingReturnToExploring();
 				this._exploringTimeout = setTimeout(function() {
 					self._exploringTimeout = null;
 					self.templateObjects.viewer.viewPoint = self.templateObjects.planetVP;
