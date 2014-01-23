@@ -6,7 +6,7 @@
     "collections": "~0.2.2",
     "q": "~0.9.7",
     "digit": "~0.4.0",
-    "mjs-volume": "git://github.com/fabrobinet/mjs-volume#6b86b939cede0e0b4277ce7e45b7ae5b161e955a",
+    "mjs-volume": "git://github.com/fabrobinet/mjs-volume#a76e049c71a0a6523db57c3b4acbccd47646ac24",
     "montage": "~0.13.9"
   },
   "bundle": ["ui/fallback.reel"]
