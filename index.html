@@ -42,10 +42,15 @@
             margin: 0;
         }
         
-        /* TODO: replace minimum loader */
-        body { visibility: hidden; }
-        .montage-app-loaded body { visibility: visible; }
-        
+        .loading {
+            text-align: center;
+            font-size: 2em;
+            line-height: 10em; /* fallback */
+            line-height: 100vh;
+            color: #fff;
+            text-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.25);
+        }
+                
     </style>
     
     <script src="node_modules/montage/montage.js" async></script>
@@ -62,6 +67,6 @@
     </script>
 </head>
 <body>
-    <span class="loading"></span>
+    <div class="loading">Loading...</div>
 </body>
 </html>
