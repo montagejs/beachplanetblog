@@ -326,7 +326,8 @@
                 },
                 "bindings": {
                     "label": { "<-": "@nav.objectAtCurrentIteration.name" },
-                    "viewPoint": { "<-": "@nav.objectAtCurrentIteration.value" }
+                    "viewPoint": { "<-": "@nav.objectAtCurrentIteration.value" },
+                    "classList.has('is-selected')": {"<-": "@viewer.viewPoint == viewPoint"}
                 },
                 "listeners": [{
                     "type": "action",
