@@ -2,31 +2,75 @@
     "accessors": {
         "accessor_0": {
             "bufferView": "bufferView_707",
-            "byteOffset": 0,
+            "byteOffset": 843648,
             "count": 501,
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 843648,
+                        "count": 547,
+                        "mode": "ascii",
+                        "type": 5121
+                    }
+                }
+            },
             "type": 5126
         },
         "accessor_1": {
             "bufferView": "bufferView_707",
-            "byteOffset": 2004,
+            "byteOffset": 844195,
             "count": 501,
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 844195,
+                        "count": 5265,
+                        "mode": "ascii",
+                        "type": 5121
+                    }
+                }
+            },
             "type": 35665
         },
         "accessor_2": {
             "bufferView": "bufferView_707",
-            "byteOffset": 8016,
+            "byteOffset": 849460,
             "count": 501,
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 849460,
+                        "count": 2039,
+                        "mode": "ascii",
+                        "type": 5121
+                    }
+                }
+            },
             "type": 35665
         },
         "accessor_3": {
             "bufferView": "bufferView_707",
-            "byteOffset": 14028,
+            "byteOffset": 851499,
             "count": 501,
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 851499,
+                        "count": 2508,
+                        "mode": "ascii",
+                        "type": 5121
+                    }
+                }
+            },
             "type": 35666
         },
         "attribute_104": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 324576,
+            "bufferView": "bufferView_708",
+            "byteOffset": 142567,
             "byteStride": 12,
             "count": 336,
             "max": [
@@ -42,8 +86,8 @@
             "type": 35665
         },
         "attribute_106": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 328608,
+            "bufferView": "bufferView_708",
+            "byteOffset": 146599,
             "byteStride": 12,
             "count": 336,
             "max": [
@@ -59,8 +103,8 @@
             "type": 35665
         },
         "attribute_108": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 332640,
+            "bufferView": "bufferView_708",
+            "byteOffset": 150631,
             "byteStride": 8,
             "count": 336,
             "max": [
@@ -74,8 +118,8 @@
             "type": 35664
         },
         "attribute_131": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 335328,
+            "bufferView": "bufferView_708",
+            "byteOffset": 150031,
             "byteStride": 12,
             "count": 1764,
             "max": [
@@ -91,8 +135,8 @@
             "type": 35665
         },
         "attribute_133": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 356496,
+            "bufferView": "bufferView_708",
+            "byteOffset": 171199,
             "byteStride": 12,
             "count": 1764,
             "max": [
@@ -108,8 +152,8 @@
             "type": 35665
         },
         "attribute_135": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 377664,
+            "bufferView": "bufferView_708",
+            "byteOffset": 192367,
             "byteStride": 8,
             "count": 1764,
             "max": [
@@ -123,8 +167,8 @@
             "type": 35664
         },
         "attribute_158": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 391776,
+            "bufferView": "bufferView_708",
+            "byteOffset": 176994,
             "byteStride": 12,
             "count": 2421,
             "max": [
@@ -140,8 +184,8 @@
             "type": 35665
         },
         "attribute_160": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 420828,
+            "bufferView": "bufferView_708",
+            "byteOffset": 206046,
             "byteStride": 12,
             "count": 2421,
             "max": [
@@ -157,8 +201,8 @@
             "type": 35665
         },
         "attribute_162": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 449880,
+            "bufferView": "bufferView_708",
+            "byteOffset": 235098,
             "byteStride": 8,
             "count": 2421,
             "max": [
@@ -172,8 +216,8 @@
             "type": 35664
         },
         "attribute_185": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 469248,
+            "bufferView": "bufferView_708",
+            "byteOffset": 206602,
             "byteStride": 12,
             "count": 1404,
             "max": [
@@ -189,8 +233,8 @@
             "type": 35665
         },
         "attribute_187": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 486096,
+            "bufferView": "bufferView_708",
+            "byteOffset": 223450,
             "byteStride": 12,
             "count": 1404,
             "max": [
@@ -206,8 +250,8 @@
             "type": 35665
         },
         "attribute_189": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 502944,
+            "bufferView": "bufferView_708",
+            "byteOffset": 240298,
             "byteStride": 8,
             "count": 1404,
             "max": [
@@ -221,8 +265,8 @@
             "type": 35664
         },
         "attribute_212": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 514176,
+            "bufferView": "bufferView_708",
+            "byteOffset": 238113,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -238,8 +282,8 @@
             "type": 35665
         },
         "attribute_214": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 585888,
+            "bufferView": "bufferView_708",
+            "byteOffset": 309825,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -255,8 +299,8 @@
             "type": 35665
         },
         "attribute_216": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 657600,
+            "bufferView": "bufferView_708",
+            "byteOffset": 381537,
             "byteStride": 8,
             "count": 5976,
             "max": [
@@ -270,8 +314,8 @@
             "type": 35664
         },
         "attribute_23": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 0,
+            "bufferView": "bufferView_708",
+            "byteOffset": 11964,
             "byteStride": 12,
             "count": 5982,
             "max": [
@@ -287,8 +331,8 @@
             "type": 35665
         },
         "attribute_239": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 705408,
+            "bufferView": "bufferView_708",
+            "byteOffset": 315769,
             "byteStride": 12,
             "count": 798,
             "max": [
@@ -304,8 +348,8 @@
             "type": 35665
         },
         "attribute_241": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 714984,
+            "bufferView": "bufferView_708",
+            "byteOffset": 325345,
             "byteStride": 12,
             "count": 798,
             "max": [
@@ -321,8 +365,8 @@
             "type": 35665
         },
         "attribute_243": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 724560,
+            "bufferView": "bufferView_708",
+            "byteOffset": 334921,
             "byteStride": 8,
             "count": 798,
             "max": [
@@ -336,8 +380,8 @@
             "type": 35664
         },
         "attribute_25": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 71784,
+            "bufferView": "bufferView_708",
+            "byteOffset": 83748,
             "byteStride": 12,
             "count": 5982,
             "max": [
@@ -353,8 +397,8 @@
             "type": 35665
         },
         "attribute_266": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 730944,
+            "bufferView": "bufferView_708",
+            "byteOffset": 329116,
             "byteStride": 12,
             "count": 1929,
             "max": [
@@ -370,8 +414,8 @@
             "type": 35665
         },
         "attribute_268": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 754092,
+            "bufferView": "bufferView_708",
+            "byteOffset": 352264,
             "byteStride": 12,
             "count": 1929,
             "max": [
@@ -387,8 +431,8 @@
             "type": 35665
         },
         "attribute_27": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 143568,
+            "bufferView": "bufferView_708",
+            "byteOffset": 155532,
             "byteStride": 8,
             "count": 5982,
             "max": [
@@ -402,8 +446,8 @@
             "type": 35664
         },
         "attribute_270": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 777240,
+            "bufferView": "bufferView_708",
+            "byteOffset": 375412,
             "byteStride": 8,
             "count": 1929,
             "max": [
@@ -417,8 +461,8 @@
             "type": 35664
         },
         "attribute_293": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 792672,
+            "bufferView": "bufferView_708",
+            "byteOffset": 353678,
             "byteStride": 12,
             "count": 864,
             "max": [
@@ -434,8 +478,8 @@
             "type": 35665
         },
         "attribute_295": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 803040,
+            "bufferView": "bufferView_708",
+            "byteOffset": 364046,
             "byteStride": 12,
             "count": 864,
             "max": [
@@ -451,8 +495,8 @@
             "type": 35665
         },
         "attribute_297": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 813408,
+            "bufferView": "bufferView_708",
+            "byteOffset": 374414,
             "byteStride": 8,
             "count": 864,
             "max": [
@@ -466,8 +510,8 @@
             "type": 35664
         },
         "attribute_320": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 820320,
+            "bufferView": "bufferView_708",
+            "byteOffset": 366620,
             "byteStride": 12,
             "count": 600,
             "max": [
@@ -483,8 +527,8 @@
             "type": 35665
         },
         "attribute_322": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 827520,
+            "bufferView": "bufferView_708",
+            "byteOffset": 373820,
             "byteStride": 12,
             "count": 600,
             "max": [
@@ -500,8 +544,8 @@
             "type": 35665
         },
         "attribute_324": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 834720,
+            "bufferView": "bufferView_708",
+            "byteOffset": 381020,
             "byteStride": 8,
             "count": 600,
             "max": [
@@ -515,8 +559,8 @@
             "type": 35664
         },
         "attribute_347": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 839520,
+            "bufferView": "bufferView_708",
+            "byteOffset": 378079,
             "byteStride": 12,
             "count": 1404,
             "max": [
@@ -532,8 +576,8 @@
             "type": 35665
         },
         "attribute_349": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 856368,
+            "bufferView": "bufferView_708",
+            "byteOffset": 394927,
             "byteStride": 12,
             "count": 1404,
             "max": [
@@ -549,8 +593,8 @@
             "type": 35665
         },
         "attribute_351": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 873216,
+            "bufferView": "bufferView_708",
+            "byteOffset": 411775,
             "byteStride": 8,
             "count": 1404,
             "max": [
@@ -564,8 +608,8 @@
             "type": 35664
         },
         "attribute_374": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 884448,
+            "bufferView": "bufferView_708",
+            "byteOffset": 399711,
             "byteStride": 12,
             "count": 432,
             "max": [
@@ -581,8 +625,8 @@
             "type": 35665
         },
         "attribute_376": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 889632,
+            "bufferView": "bufferView_708",
+            "byteOffset": 404895,
             "byteStride": 12,
             "count": 432,
             "max": [
@@ -598,8 +642,8 @@
             "type": 35665
         },
         "attribute_378": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 894816,
+            "bufferView": "bufferView_708",
+            "byteOffset": 410079,
             "byteStride": 8,
             "count": 432,
             "max": [
@@ -613,8 +657,8 @@
             "type": 35664
         },
         "attribute_401": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 898272,
+            "bufferView": "bufferView_708",
+            "byteOffset": 406760,
             "byteStride": 12,
             "count": 324,
             "max": [
@@ -630,8 +674,8 @@
             "type": 35665
         },
         "attribute_403": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 902160,
+            "bufferView": "bufferView_708",
+            "byteOffset": 410648,
             "byteStride": 12,
             "count": 324,
             "max": [
@@ -647,8 +691,8 @@
             "type": 35665
         },
         "attribute_405": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 906048,
+            "bufferView": "bufferView_708",
+            "byteOffset": 414536,
             "byteStride": 8,
             "count": 324,
             "max": [
@@ -662,8 +706,8 @@
             "type": 35664
         },
         "attribute_428": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 908640,
+            "bufferView": "bufferView_708",
+            "byteOffset": 411508,
             "byteStride": 12,
             "count": 78,
             "max": [
@@ -679,8 +723,8 @@
             "type": 35665
         },
         "attribute_430": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 909576,
+            "bufferView": "bufferView_708",
+            "byteOffset": 412444,
             "byteStride": 12,
             "count": 78,
             "max": [
@@ -696,8 +740,8 @@
             "type": 35665
         },
         "attribute_432": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 910512,
+            "bufferView": "bufferView_708",
+            "byteOffset": 413380,
             "byteStride": 8,
             "count": 78,
             "max": [
@@ -711,8 +755,8 @@
             "type": 35664
         },
         "attribute_455": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 911136,
+            "bufferView": "bufferView_708",
+            "byteOffset": 416182,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -728,8 +772,8 @@
             "type": 35665
         },
         "attribute_457": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 931440,
+            "bufferView": "bufferView_708",
+            "byteOffset": 436486,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -745,8 +789,8 @@
             "type": 35665
         },
         "attribute_459": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 951744,
+            "bufferView": "bufferView_708",
+            "byteOffset": 456790,
             "byteStride": 8,
             "count": 1692,
             "max": [
@@ -760,8 +804,8 @@
             "type": 35664
         },
         "attribute_482": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 965280,
+            "bufferView": "bufferView_708",
+            "byteOffset": 444820,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -777,8 +821,8 @@
             "type": 35665
         },
         "attribute_484": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 985584,
+            "bufferView": "bufferView_708",
+            "byteOffset": 465124,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -794,8 +838,8 @@
             "type": 35665
         },
         "attribute_486": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1005888,
+            "bufferView": "bufferView_708",
+            "byteOffset": 485428,
             "byteStride": 8,
             "count": 1692,
             "max": [
@@ -809,8 +853,8 @@
             "type": 35664
         },
         "attribute_50": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 191424,
+            "bufferView": "bufferView_708",
+            "byteOffset": 90547,
             "byteStride": 12,
             "count": 2676,
             "max": [
@@ -826,8 +870,8 @@
             "type": 35665
         },
         "attribute_509": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1019424,
+            "bufferView": "bufferView_708",
+            "byteOffset": 473462,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -843,8 +887,8 @@
             "type": 35665
         },
         "attribute_511": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1039728,
+            "bufferView": "bufferView_708",
+            "byteOffset": 493766,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -860,8 +904,8 @@
             "type": 35665
         },
         "attribute_513": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1060032,
+            "bufferView": "bufferView_708",
+            "byteOffset": 514070,
             "byteStride": 8,
             "count": 1692,
             "max": [
@@ -875,8 +919,8 @@
             "type": 35664
         },
         "attribute_52": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 223536,
+            "bufferView": "bufferView_708",
+            "byteOffset": 122659,
             "byteStride": 12,
             "count": 2676,
             "max": [
@@ -892,8 +936,8 @@
             "type": 35665
         },
         "attribute_536": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1073568,
+            "bufferView": "bufferView_708",
+            "byteOffset": 502148,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -909,8 +953,8 @@
             "type": 35665
         },
         "attribute_538": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1093872,
+            "bufferView": "bufferView_708",
+            "byteOffset": 522452,
             "byteStride": 12,
             "count": 1692,
             "max": [
@@ -926,8 +970,8 @@
             "type": 35665
         },
         "attribute_54": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 255648,
+            "bufferView": "bufferView_708",
+            "byteOffset": 154771,
             "byteStride": 8,
             "count": 2676,
             "max": [
@@ -941,8 +985,8 @@
             "type": 35664
         },
         "attribute_540": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1114176,
+            "bufferView": "bufferView_708",
+            "byteOffset": 542756,
             "byteStride": 8,
             "count": 1692,
             "max": [
@@ -956,8 +1000,8 @@
             "type": 35664
         },
         "attribute_563": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1127712,
+            "bufferView": "bufferView_708",
+            "byteOffset": 533173,
             "byteStride": 12,
             "count": 2880,
             "max": [
@@ -973,8 +1017,8 @@
             "type": 35665
         },
         "attribute_565": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1162272,
+            "bufferView": "bufferView_708",
+            "byteOffset": 567733,
             "byteStride": 12,
             "count": 2880,
             "max": [
@@ -990,8 +1034,8 @@
             "type": 35665
         },
         "attribute_567": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1196832,
+            "bufferView": "bufferView_708",
+            "byteOffset": 602293,
             "byteStride": 8,
             "count": 2880,
             "max": [
@@ -1005,8 +1049,8 @@
             "type": 35664
         },
         "attribute_590": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1219872,
+            "bufferView": "bufferView_708",
+            "byteOffset": 573952,
             "byteStride": 12,
             "count": 438,
             "max": [
@@ -1022,8 +1066,8 @@
             "type": 35665
         },
         "attribute_592": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1225128,
+            "bufferView": "bufferView_708",
+            "byteOffset": 579208,
             "byteStride": 12,
             "count": 438,
             "max": [
@@ -1039,8 +1083,8 @@
             "type": 35665
         },
         "attribute_594": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1230384,
+            "bufferView": "bufferView_708",
+            "byteOffset": 584464,
             "byteStride": 8,
             "count": 438,
             "max": [
@@ -1054,8 +1098,8 @@
             "type": 35664
         },
         "attribute_617": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1233888,
+            "bufferView": "bufferView_708",
+            "byteOffset": 591643,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1071,8 +1115,8 @@
             "type": 35665
         },
         "attribute_619": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1305600,
+            "bufferView": "bufferView_708",
+            "byteOffset": 663355,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1088,8 +1132,8 @@
             "type": 35665
         },
         "attribute_621": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1377312,
+            "bufferView": "bufferView_708",
+            "byteOffset": 735067,
             "byteStride": 8,
             "count": 5976,
             "max": [
@@ -1103,8 +1147,8 @@
             "type": 35664
         },
         "attribute_644": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1425120,
+            "bufferView": "bufferView_708",
+            "byteOffset": 679576,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1120,8 +1164,8 @@
             "type": 35665
         },
         "attribute_646": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1496832,
+            "bufferView": "bufferView_708",
+            "byteOffset": 751288,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1137,8 +1181,8 @@
             "type": 35665
         },
         "attribute_648": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1568544,
+            "bufferView": "bufferView_708",
+            "byteOffset": 823000,
             "byteStride": 8,
             "count": 5976,
             "max": [
@@ -1152,8 +1196,8 @@
             "type": 35664
         },
         "attribute_671": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1616352,
+            "bufferView": "bufferView_708",
+            "byteOffset": 767588,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1169,8 +1213,8 @@
             "type": 35665
         },
         "attribute_673": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1688064,
+            "bufferView": "bufferView_708",
+            "byteOffset": 839300,
             "byteStride": 12,
             "count": 5976,
             "max": [
@@ -1186,8 +1230,8 @@
             "type": 35665
         },
         "attribute_675": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 1759776,
+            "bufferView": "bufferView_708",
+            "byteOffset": 911012,
             "byteStride": 8,
             "count": 5976,
             "max": [
@@ -1201,8 +1245,8 @@
             "type": 35664
         },
         "attribute_77": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 277056,
+            "bufferView": "bufferView_708",
+            "byteOffset": 124594,
             "byteStride": 12,
             "count": 1485,
             "max": [
@@ -1218,8 +1262,8 @@
             "type": 35665
         },
         "attribute_79": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 294876,
+            "bufferView": "bufferView_708",
+            "byteOffset": 142414,
             "byteStride": 12,
             "count": 1485,
             "max": [
@@ -1235,8 +1279,8 @@
             "type": 35665
         },
         "attribute_81": {
-            "bufferView": "bufferView_705",
-            "byteOffset": 312696,
+            "bufferView": "bufferView_708",
+            "byteOffset": 160234,
             "byteStride": 8,
             "count": 1485,
             "max": [
@@ -1250,152 +1294,152 @@
             "type": 35664
         },
         "indices_102": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 20286,
+            "bufferView": "bufferView_708",
+            "byteOffset": 141895,
             "count": 336,
             "type": 5123
         },
         "indices_129": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 20958,
+            "bufferView": "bufferView_708",
+            "byteOffset": 146503,
             "count": 1764,
             "type": 5123
         },
         "indices_156": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 24486,
+            "bufferView": "bufferView_708",
+            "byteOffset": 172152,
             "count": 2421,
             "type": 5123
         },
         "indices_183": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 29328,
+            "bufferView": "bufferView_708",
+            "byteOffset": 203794,
             "count": 1404,
             "type": 5123
         },
         "indices_21": {
-            "bufferView": "bufferView_706",
+            "bufferView": "bufferView_708",
             "byteOffset": 0,
             "count": 5982,
             "type": 5123
         },
         "indices_210": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 32136,
+            "bufferView": "bufferView_708",
+            "byteOffset": 226161,
             "count": 5976,
             "type": 5123
         },
         "indices_237": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 44088,
+            "bufferView": "bufferView_708",
+            "byteOffset": 314173,
             "count": 798,
             "type": 5123
         },
         "indices_264": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 45684,
+            "bufferView": "bufferView_708",
+            "byteOffset": 325258,
             "count": 1929,
             "type": 5123
         },
         "indices_291": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 49542,
+            "bufferView": "bufferView_708",
+            "byteOffset": 351950,
             "count": 864,
             "type": 5123
         },
         "indices_318": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 51270,
+            "bufferView": "bufferView_708",
+            "byteOffset": 365420,
             "count": 600,
             "type": 5123
         },
         "indices_345": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 52470,
+            "bufferView": "bufferView_708",
+            "byteOffset": 375271,
             "count": 1404,
             "type": 5123
         },
         "indices_372": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 55278,
+            "bufferView": "bufferView_708",
+            "byteOffset": 398847,
             "count": 432,
             "type": 5123
         },
         "indices_399": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 56142,
+            "bufferView": "bufferView_708",
+            "byteOffset": 406112,
             "count": 324,
             "type": 5123
         },
         "indices_426": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 56790,
+            "bufferView": "bufferView_708",
+            "byteOffset": 411352,
             "count": 78,
             "type": 5123
         },
         "indices_453": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 56946,
+            "bufferView": "bufferView_708",
+            "byteOffset": 412798,
             "count": 1692,
             "type": 5123
         },
         "indices_48": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 11964,
+            "bufferView": "bufferView_708",
+            "byteOffset": 85195,
             "count": 2676,
             "type": 5123
         },
         "indices_480": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 60330,
+            "bufferView": "bufferView_708",
+            "byteOffset": 441436,
             "count": 1692,
             "type": 5123
         },
         "indices_507": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 63714,
+            "bufferView": "bufferView_708",
+            "byteOffset": 470078,
             "count": 1692,
             "type": 5123
         },
         "indices_534": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 67098,
+            "bufferView": "bufferView_708",
+            "byteOffset": 498764,
             "count": 1692,
             "type": 5123
         },
         "indices_561": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 70482,
+            "bufferView": "bufferView_708",
+            "byteOffset": 527413,
             "count": 2880,
             "type": 5123
         },
         "indices_588": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 76242,
+            "bufferView": "bufferView_708",
+            "byteOffset": 573076,
             "count": 438,
             "type": 5123
         },
         "indices_615": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 77118,
+            "bufferView": "bufferView_708",
+            "byteOffset": 579691,
             "count": 5976,
             "type": 5123
         },
         "indices_642": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 89070,
+            "bufferView": "bufferView_708",
+            "byteOffset": 667624,
             "count": 5976,
             "type": 5123
         },
         "indices_669": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 101022,
+            "bufferView": "bufferView_708",
+            "byteOffset": 755636,
             "count": 5976,
             "type": 5123
         },
         "indices_75": {
-            "bufferView": "bufferView_706",
-            "byteOffset": 17316,
+            "bufferView": "bufferView_708",
+            "byteOffset": 121624,
             "count": 1485,
             "type": 5123
         }
@@ -1455,32 +1499,37 @@
         "extras": {
             "premultipliedAlpha": true
         },
-        "generator": "collada2gltf@4f3a8ea4bf5993093d60c364b78e557ea76d813b"
+        "generator": "collada2gltf@12cf5c20aadf57e5e9c1fc5ebe0435239df95168"
     },
     "bufferViews": {
         "bufferView_705": {
             "buffer": "beachplanet",
-            "byteLength": 1807584,
+            "byteLength": 0,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_706": {
             "buffer": "beachplanet",
-            "byteLength": 112976,
-            "byteOffset": 1807584,
+            "byteLength": 0,
+            "byteOffset": 0,
             "target": 34963
         },
         "bufferView_707": {
             "buffer": "beachplanet",
-            "byteLength": 22044,
-            "byteOffset": 1920560
+            "byteLength": 0,
+            "byteOffset": 0
+        },
+        "bufferView_708": {
+            "buffer": "beachplanetcompression",
+            "byteLength": 854007,
+            "byteOffset": 0
         }
     },
     "buffers": {
-        "beachplanet": {
-            "byteLength": 1942604,
-            "path": "beachplanet.bin",
-            "type": "arraybuffer"
+        "beachplanetcompression": {
+            "byteLength": 854007,
+            "path": "beachplanetcompression.bin",
+            "type": "text"
         }
     },
     "cameras": {
@@ -2025,6 +2074,22 @@
     },
     "meshes": {
         "geom-CabineDoor": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 141895,
+                        "count": 4608,
+                        "floatAttributesIndexes": {
+                            "attribute_108": 0
+                        },
+                        "indicesCount": 336,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 336
+                    }
+                }
+            },
             "name": "CabineDoor",
             "primitives": [
                 {
@@ -2040,6 +2105,22 @@
             ]
         },
         "geom-SeanGull01": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 325258,
+                        "count": 26692,
+                        "floatAttributesIndexes": {
+                            "attribute_270": 0
+                        },
+                        "indicesCount": 1929,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1929
+                    }
+                }
+            },
             "name": "SeanGull01",
             "primitives": [
                 {
@@ -2055,6 +2136,22 @@
             ]
         },
         "geom-assarum002": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 121624,
+                        "count": 20271,
+                        "floatAttributesIndexes": {
+                            "attribute_81": 0
+                        },
+                        "indicesCount": 1485,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1485
+                    }
+                }
+            },
             "name": "assarum002",
             "primitives": [
                 {
@@ -2070,6 +2167,22 @@
             ]
         },
         "geom-background": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 0,
+                        "count": 85195,
+                        "floatAttributesIndexes": {
+                            "attribute_27": 0
+                        },
+                        "indicesCount": 5982,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 5982
+                    }
+                }
+            },
             "name": "background",
             "primitives": [
                 {
@@ -2085,6 +2198,22 @@
             ]
         },
         "geom-buoy": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 527413,
+                        "count": 45663,
+                        "floatAttributesIndexes": {
+                            "attribute_567": 0
+                        },
+                        "indicesCount": 2880,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 2880
+                    }
+                }
+            },
             "name": "buoy",
             "primitives": [
                 {
@@ -2100,6 +2229,22 @@
             ]
         },
         "geom-cabine": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 573076,
+                        "count": 6615,
+                        "floatAttributesIndexes": {
+                            "attribute_594": 0
+                        },
+                        "indicesCount": 438,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 438
+                    }
+                }
+            },
             "name": "cabine",
             "primitives": [
                 {
@@ -2115,6 +2260,22 @@
             ]
         },
         "geom-dauphin001": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 203794,
+                        "count": 22367,
+                        "floatAttributesIndexes": {
+                            "attribute_189": 0
+                        },
+                        "indicesCount": 1404,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1404
+                    }
+                }
+            },
             "name": "dauphin001",
             "primitives": [
                 {
@@ -2130,6 +2291,22 @@
             ]
         },
         "geom-dauphin003": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 375271,
+                        "count": 23576,
+                        "floatAttributesIndexes": {
+                            "attribute_351": 0
+                        },
+                        "indicesCount": 1404,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1404
+                    }
+                }
+            },
             "name": "dauphin003",
             "primitives": [
                 {
@@ -2145,6 +2322,22 @@
             ]
         },
         "geom-etoile2mer003": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 314173,
+                        "count": 11085,
+                        "floatAttributesIndexes": {
+                            "attribute_243": 0
+                        },
+                        "indicesCount": 798,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 798
+                    }
+                }
+            },
             "name": "etoile2mer003",
             "primitives": [
                 {
@@ -2160,6 +2353,22 @@
             ]
         },
         "geom-fleursBlanches": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 365420,
+                        "count": 9851,
+                        "floatAttributesIndexes": {
+                            "attribute_324": 0
+                        },
+                        "indicesCount": 600,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 600
+                    }
+                }
+            },
             "name": "fleursBlanches",
             "primitives": [
                 {
@@ -2175,6 +2384,22 @@
             ]
         },
         "geom-fleursOranges": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 351950,
+                        "count": 13470,
+                        "floatAttributesIndexes": {
+                            "attribute_297": 0
+                        },
+                        "indicesCount": 864,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 864
+                    }
+                }
+            },
             "name": "fleursOranges",
             "primitives": [
                 {
@@ -2190,6 +2415,22 @@
             ]
         },
         "geom-fleursRoses001": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 398847,
+                        "count": 7265,
+                        "floatAttributesIndexes": {
+                            "attribute_378": 0
+                        },
+                        "indicesCount": 432,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 432
+                    }
+                }
+            },
             "name": "fleursRoses001",
             "primitives": [
                 {
@@ -2205,6 +2446,22 @@
             ]
         },
         "geom-game_roc": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 411352,
+                        "count": 1446,
+                        "floatAttributesIndexes": {
+                            "attribute_432": 0
+                        },
+                        "indicesCount": 78,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 78
+                    }
+                }
+            },
             "name": "game_roc",
             "primitives": [
                 {
@@ -2220,6 +2477,22 @@
             ]
         },
         "geom-game_starfish": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 406112,
+                        "count": 5240,
+                        "floatAttributesIndexes": {
+                            "attribute_405": 0
+                        },
+                        "indicesCount": 324,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 324
+                    }
+                }
+            },
             "name": "game_starfish",
             "primitives": [
                 {
@@ -2235,6 +2508,22 @@
             ]
         },
         "geom-leaves005": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 498764,
+                        "count": 28649,
+                        "floatAttributesIndexes": {
+                            "attribute_540": 0
+                        },
+                        "indicesCount": 1692,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1692
+                    }
+                }
+            },
             "name": "leaves005",
             "primitives": [
                 {
@@ -2250,6 +2539,22 @@
             ]
         },
         "geom-leaves01": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 412798,
+                        "count": 28638,
+                        "floatAttributesIndexes": {
+                            "attribute_459": 0
+                        },
+                        "indicesCount": 1692,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1692
+                    }
+                }
+            },
             "name": "leaves01",
             "primitives": [
                 {
@@ -2265,6 +2570,22 @@
             ]
         },
         "geom-leaves02": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 441436,
+                        "count": 28642,
+                        "floatAttributesIndexes": {
+                            "attribute_486": 0
+                        },
+                        "indicesCount": 1692,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1692
+                    }
+                }
+            },
             "name": "leaves02",
             "primitives": [
                 {
@@ -2280,6 +2601,22 @@
             ]
         },
         "geom-leaves03": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 470078,
+                        "count": 28686,
+                        "floatAttributesIndexes": {
+                            "attribute_513": 0
+                        },
+                        "indicesCount": 1692,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1692
+                    }
+                }
+            },
             "name": "leaves03",
             "primitives": [
                 {
@@ -2295,6 +2632,22 @@
             ]
         },
         "geom-logo_montage_cabine": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 579691,
+                        "count": 87933,
+                        "floatAttributesIndexes": {
+                            "attribute_621": 0
+                        },
+                        "indicesCount": 5976,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 5976
+                    }
+                }
+            },
             "name": "logo_montage_cabine",
             "primitives": [
                 {
@@ -2310,6 +2663,22 @@
             ]
         },
         "geom-logo_montage_dolphin": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 226161,
+                        "count": 88012,
+                        "floatAttributesIndexes": {
+                            "attribute_216": 0
+                        },
+                        "indicesCount": 5976,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 5976
+                    }
+                }
+            },
             "name": "logo_montage_dolphin",
             "primitives": [
                 {
@@ -2325,6 +2694,22 @@
             ]
         },
         "geom-logo_montage_roc": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 755636,
+                        "count": 88012,
+                        "floatAttributesIndexes": {
+                            "attribute_675": 0
+                        },
+                        "indicesCount": 5976,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 5976
+                    }
+                }
+            },
             "name": "logo_montage_roc",
             "primitives": [
                 {
@@ -2340,6 +2725,22 @@
             ]
         },
         "geom-logo_montage_starfish": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 667624,
+                        "count": 88012,
+                        "floatAttributesIndexes": {
+                            "attribute_648": 0
+                        },
+                        "indicesCount": 5976,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 5976
+                    }
+                }
+            },
             "name": "logo_montage_starfish",
             "primitives": [
                 {
@@ -2355,6 +2756,22 @@
             ]
         },
         "geom-palmes001": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 172152,
+                        "count": 31642,
+                        "floatAttributesIndexes": {
+                            "attribute_162": 0
+                        },
+                        "indicesCount": 2421,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 2421
+                    }
+                }
+            },
             "name": "palmes001",
             "primitives": [
                 {
@@ -2370,6 +2787,22 @@
             ]
         },
         "geom-rateau": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 146503,
+                        "count": 25649,
+                        "floatAttributesIndexes": {
+                            "attribute_135": 0
+                        },
+                        "indicesCount": 1764,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 1764
+                    }
+                }
+            },
             "name": "rateau",
             "primitives": [
                 {
@@ -2385,6 +2818,22 @@
             ]
         },
         "geom-tronc005": {
+            "extensions": {
+                "Open3DGC-compression": {
+                    "compressedData": {
+                        "bufferView": "bufferView_708",
+                        "byteOffset": 85195,
+                        "count": 36429,
+                        "floatAttributesIndexes": {
+                            "attribute_54": 0
+                        },
+                        "indicesCount": 2676,
+                        "mode": "ascii",
+                        "type": 5121,
+                        "verticesCount": 2676
+                    }
+                }
+            },
             "name": "tronc005",
             "primitives": [
                 {
@@ -3765,22 +4214,28 @@
     },
     "shaders": {
         "beachplanet0FS": {
-            "path": "beachplanet0FS.glsl"
+            "path": "beachplanet0FS.glsl",
+            "type": 35632
         },
         "beachplanet0VS": {
-            "path": "beachplanet0VS.glsl"
+            "path": "beachplanet0VS.glsl",
+            "type": 35633
         },
         "beachplanet2FS": {
-            "path": "beachplanet2FS.glsl"
+            "path": "beachplanet2FS.glsl",
+            "type": 35632
         },
         "beachplanet2VS": {
-            "path": "beachplanet2VS.glsl"
+            "path": "beachplanet2VS.glsl",
+            "type": 35633
         },
         "beachplanet4FS": {
-            "path": "beachplanet4FS.glsl"
+            "path": "beachplanet4FS.glsl",
+            "type": 35632
         },
         "beachplanet4VS": {
-            "path": "beachplanet4VS.glsl"
+            "path": "beachplanet4VS.glsl",
+            "type": 35633
         }
     },
     "skins": {},
@@ -4075,119 +4530,136 @@
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_0",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_1": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_1",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_10": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_10",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_11": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_11",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_12": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_12",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_13": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_13",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_14": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_14",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_15": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_15",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_16": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_16",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_2": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_2",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_3": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_3",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_4": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_4",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_5": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_5",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_6": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_6",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_7": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_7",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_8": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_8",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         },
         "texture_image_9": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_9",
-            "target": 3553
+            "target": 3553,
+            "type": 5121
         }
     }
 }

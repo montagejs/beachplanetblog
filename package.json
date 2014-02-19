@@ -6,8 +6,8 @@
     "collections": "~0.2.2",
     "q": "~0.9.7",
     "digit": "~0.4.0",
-    "mjs-volume": "git://github.com/fabrobinet/mjs-volume#a76e049c71a0a6523db57c3b4acbccd47646ac24",
-    "montage": "~0.13.9"
+    "mjs-volume": "git://github.com/fabrobinet/mjs-volume#e2192b13b2187a6d31379b3fa41dd02bd7683152",
+    "montage": "~0.13.12"
   },
   "bundle": ["ui/fallback.reel"]
 }

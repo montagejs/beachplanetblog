@@ -97,7 +97,7 @@ exports.Beachplanet = Component.specialize({
 
 	templateDidLoad: {
 		value: function () {
-			this.templateObjects.viewer.play();
+			this.templateObjects.sceneView.play();
 			if (this.backgroundMusicEnabled) {
 				this.playSound("sound/WhiteSands.mp3", true);
 			}
@@ -110,8 +110,8 @@ exports.Beachplanet = Component.specialize({
     		this.playSound("sound/getruby.mp3");
 	   		this.dolphinLogoFound = false;
 			this.score = 0;
-			this.templateObjects.viewer.stop();
-			this.templateObjects.viewer.viewPoint = this.templateObjects.planetVP;
+			this.templateObjects.sceneView.stop();
+			this.templateObjects.sceneView.viewPoint = this.templateObjects.planetVP;
 		}
 	},
     
@@ -134,9 +134,9 @@ exports.Beachplanet = Component.specialize({
 	handleNavItemAction: { 
 		value: function(event) {
 			this.cancelPendingReturnToExploring();
-			this.templateObjects.viewer.stop();
-			this.templateObjects.viewer.viewPoint = event.target.viewPoint;
-			this.templateObjects.viewer.allowsViewPointControl = event.target.viewPoint === this.templateObjects.planetVP;
+			this.templateObjects.sceneView.stop();
+			this.templateObjects.sceneView.viewPoint = event.target.viewPoint;
+			this.templateObjects.sceneView.allowsViewPointControl = event.target.viewPoint === this.templateObjects.planetVP;
 		}
 	},
 
@@ -147,8 +147,8 @@ exports.Beachplanet = Component.specialize({
     		this.classList.add("isWinner");
     		this.classList.remove("isPlaying");
 
-			this.templateObjects.viewer.viewPoint = this.templateObjects.cameraRideViewPoint;
-			this.templateObjects.viewer.play();  
+			this.templateObjects.sceneView.viewPoint = this.templateObjects.cameraRideViewPoint;
+			this.templateObjects.sceneView.play();  
 
 			this.starRevealed = this.doorOpened = this.rockRevealed  = false;    		
     	}
@@ -172,8 +172,8 @@ exports.Beachplanet = Component.specialize({
 				this.cancelPendingReturnToExploring();
 				this._exploringTimeout = setTimeout(function() {
 					self._exploringTimeout = null;
-					self.templateObjects.viewer.viewPoint = self.templateObjects.planetVP;
-					self.templateObjects.viewer.allowsViewPointControl = true;
+					self.templateObjects.sceneView.viewPoint = self.templateObjects.planetVP;
+					self.templateObjects.sceneView.allowsViewPointControl = true;
 				}, 4000);
 			}
 		}
@@ -182,7 +182,7 @@ exports.Beachplanet = Component.specialize({
 	checkAndApplyGameActionIfNeeded: {
 		value: function(actionName, viewPoint) {
 			if (this[actionName] === false) {
-				this.templateObjects.viewer.viewPoint = viewPoint;
+				this.templateObjects.sceneView.viewPoint = viewPoint;
 				this[actionName] = true;
 	   			this.score++;
 			}

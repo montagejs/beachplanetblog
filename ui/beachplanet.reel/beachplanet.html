@@ -57,11 +57,11 @@
                 }
             },
 
-            "viewer": {
-                "prototype": "mjs-volume/ui/view.reel",
+            "sceneView": {
+                "prototype": "mjs-volume/ui/scene-view.reel",
                 "properties": {
                     "element": {
-                        "#": "viewer"
+                        "#": "sceneView"
                     },
                     "scene": {
                         "@": "scene"
@@ -346,7 +346,7 @@
                 "bindings": {
                     "label": { "<-": "@nav.objectAtCurrentIteration.name" },
                     "viewPoint": { "<-": "@nav.objectAtCurrentIteration.value" },
-                    "classList.has('is-selected')": {"<-": "@viewer.viewPoint == viewPoint"}
+                    "classList.has('is-selected')": {"<-": "@sceneView.viewPoint == viewPoint"}
                 },
                 "listeners": [{
                     "type": "action",
@@ -387,7 +387,7 @@
 
 <body>
     <div data-montage-id="beachplanet" class="BeachPlanet isIntro">
-        <div data-montage-id="viewer"></div>
+        <div data-montage-id="sceneView"></div>
         <aside class="BeachPlanet-panel">
             <img class="BeachPlanet-panel-logo" src="logo.png" title="BeachPlanet">
             <div class="BeachPlanet-score">

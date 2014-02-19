@@ -75,11 +75,11 @@
                 }                
             },
 
-            "viewer": {
-                "prototype": "mjs-volume/ui/view.reel",
+            "sceneView": {
+                "prototype": "mjs-volume/ui/scene-view.reel",
                 "properties": {
                     "allowsViewPointControl" : false,
-                    "element": { "#": "viewer" },
+                    "element": { "#": "sceneView" },
                     "scene": { "@": "scene" },
                     "viewPoint": { "@" : "doorViewPoint" }
                 }
@@ -95,7 +95,7 @@
         </div>
         <div data-arg="webgl"  class="beachplanet">
             <h1 id="top">Open the door</h1>
-            <div data-montage-id="viewer" class="stage"></div>
+            <div data-montage-id="sceneView" class="stage"></div>
         </div>
     </div>
 </body>
