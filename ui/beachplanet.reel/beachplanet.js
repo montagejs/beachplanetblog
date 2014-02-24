@@ -59,7 +59,7 @@ exports.Beachplanet = Component.specialize({
 
 	scoreDidChange: {
 		value: function() {
-    		this.playSound("sound/getruby.mp3");
+    		this.playSound("assets/sound/getruby.mp3");
 			if (this.score === this.MAX_SCORE) {
 				var self = this;
 				//We let 3 seconds for the camera focusing the revealed logo before ending the game.
@@ -99,7 +99,7 @@ exports.Beachplanet = Component.specialize({
 		value: function () {
 			this.templateObjects.sceneView.play();
 			if (this.backgroundMusicEnabled) {
-				this.playSound("sound/WhiteSands.mp3", true);
+				this.playSound("assets/sound/WhiteSands.mp3", true);
 			}
 			this.animateDolphins();
 		}
@@ -107,7 +107,7 @@ exports.Beachplanet = Component.specialize({
 
 	prepareForPlay: {
 		value:function() {
-    		this.playSound("sound/getruby.mp3");
+    		this.playSound("assets/sound/getruby.mp3");
 	   		this.dolphinLogoFound = false;
 			this.score = 0;
 			this.templateObjects.sceneView.stop();
@@ -142,7 +142,7 @@ exports.Beachplanet = Component.specialize({
 
 	gameWon: {
 		value: function() {
-    		this.playSound("sound/getruby.mp3");
+    		this.playSound("assets/sound/getruby.mp3");
     		//update title		
     		this.classList.add("isWinner");
     		this.classList.remove("isPlaying");

@@ -1,12 +1,12 @@
-.Fallback {
+.Main {
   height: 100%;
 }
 
-.Fallback-substitution {
+.Main-substitution {
   height: 100%;
 }
 
-.Fallback-wrapper {
+.Main-wrapper {
   height: 100%;
   padding: 10px 20px;
   -moz-box-sizing: border-box;
@@ -23,29 +23,29 @@
   align-items: center;
 }
 
-.Fallback-logo {
+.Main-logo {
   width: 100%;
   max-width: 280px;
 }
 
-.Fallback-title {
+.Main-title {
   color: #fff;
   font-size: 36px;
   margin-bottom: 0;
   text-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.25);
 }
 
-.Fallback-subtitle {
+.Main-subtitle {
   color: hsla(0, 0%, 0%, 0.5);
   font-size: 18px;
 }
 
 
-.Fallback-link {
+.Main-link {
     text-decoration: none;
     color: hsl(204, 54%, 37%);
 }
 
-.Fallback-link:hover {
+.Main-link:hover {
     color: hsl(204, 54%, 27%);
 }

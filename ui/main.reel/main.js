@@ -2,7 +2,7 @@ var Component;
 
 Component = require("montage/ui/component").Component;
 
-exports.Fallback = Component.specialize({
+exports.Main = Component.specialize({
 
     _supportsWebGL: {
         value: null
