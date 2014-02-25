@@ -9,6 +9,6 @@
     "mjs-volume": "git://github.com/fabrobinet/mjs-volume#e2192b13b2187a6d31379b3fa41dd02bd7683152",
     "montage": "~0.13.12"
   },
-  "bundle": ["ui/fallback.reel"]
+  "bundle": ["ui/main.reel"]
 }
 
