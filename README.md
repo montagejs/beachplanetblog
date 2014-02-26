@@ -1,4 +1,3 @@
-
 Beach Planet
 ============
 
@@ -56,7 +55,7 @@ LICENSE.md | Contains copyright information.
 package.json | Describes the application and its dependencies.
 README.md | Provides information about the demo application and how to install it.
 
->**Note:** buoy.html and door.html are entry points to the buoy.reel and door.reel user interface components, which are specific to the [Building 3D Applications with MontageJS](http://montagejs.org/docs/tutorial-3d-applications-with-montagejs.html) tutorial. They are not part of the demo proper. 
+>**Note:** 01planet.html, 02buoy.html, and 03door.html are entry points to the buoy.reel and door.reel user interface components, which are specific to the [Building 3D Applications with MontageJS](http://montagejs.org/docs/tutorial-3d-applications-with-montagejs.html) tutorial. They are not part of the demo proper. 
 
 ## Contact Us
 
