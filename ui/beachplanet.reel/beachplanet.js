@@ -39,7 +39,7 @@ exports.Beachplanet = Component.specialize({
 	
 	rockRevealed: { value: false },
 
-	doorOpened: { value: false },
+	doorOpen: { value: false },
 
 	starRevealed: { value: false },
 
@@ -150,7 +150,7 @@ exports.Beachplanet = Component.specialize({
 			this.templateObjects.sceneView.viewPoint = this.templateObjects.cameraRideViewPoint;
 			this.templateObjects.sceneView.play();  
 
-			this.starRevealed = this.doorOpened = this.rockRevealed  = false;    		
+			this.starRevealed = this.doorOpen = this.rockRevealed  = false;    		
     	}
 	},
 
@@ -199,7 +199,7 @@ exports.Beachplanet = Component.specialize({
 	/* handle door */
   	handleDoorAction: {
     	value: function(event) {
-			this.checkAndApplyGameActionIfNeeded("doorOpened", this.templateObjects.cabinLogoVP);
+			this.checkAndApplyGameActionIfNeeded("doorOpen", this.templateObjects.cabinLogoVP);
     	}
     },
 
