@@ -1,0 +1,15 @@
+.beachplanet .stage {
+  height: 600px !important;
+}
+.beachplanet #top {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+.beachplanet #bottom {
+  position: fixed;
+  margin-top: 450px;
+  text-align: center;
+  width: 100%;
+}
+
