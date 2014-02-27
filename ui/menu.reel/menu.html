@@ -1,0 +1,154 @@
+<!-- Copyright (c) 2013, Fabrice Robinet.
+ All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <script type="text/montage-serialization">
+        {
+            "owner": {
+                "properties": {
+                    "element": { "#": "beachplanet" }
+                }
+            },
+
+            "scene": {
+                "prototype": "mjs-volume/runtime/scene",
+                "properties": {
+                    "path": "assets/3d/beachplanet/beachplanet.json"
+                }
+            },
+
+            "planetVP": {
+                "prototype": "mjs-volume/runtime/node",
+                "properties": {
+                    "id": "node-Camera-planet",
+                    "scene": { "@": "scene" }
+                }
+            },
+
+            "cabinVP": {
+                "prototype": "mjs-volume/runtime/node",
+                "properties": {
+                    "id": "node-Camera_cabin",
+                    "scene": { "@": "scene" }
+                }
+            },
+            "seaGullVP": {
+                "prototype": "mjs-volume/runtime/node",
+                "properties": {
+                    "id": "node-Camera_SeaGull",
+                    "scene": { "@": "scene" }
+                }
+            },
+            "door": {
+                "prototype": "mjs-volume/runtime/node",
+                "properties": {
+                    "id": "node_6",
+                    "scene": { "@": "scene" }
+                },
+                "bindings": {
+                    "classList.has('animate')": { "<-": "true" },
+                    "classList.has('open')": { "<-": "@owner.doorOpen" }
+                },
+                "listeners": [{
+                    "type": "action",
+                    "listener": { "@": "owner" }
+                }]
+            },
+
+            "sceneView": {
+                "prototype": "mjs-volume/ui/scene-view.reel",
+                "properties": {
+                    "allowsViewPointControl" : false,
+                    "element": { "#": "sceneView" },
+                    "scene": { "@": "scene" },
+                    "viewPoint": { "@" : "planetVP" }
+                }
+            },
+            "navItem": {
+                "prototype": "digit/ui/button.reel",
+                "properties": {
+                    "element": { "#": "navItem" }
+                },
+                "bindings": {
+                    "label": { "<-": "@nav.objectAtCurrentIteration.label" },
+                    "viewPoint": { "<-": "@nav.objectAtCurrentIteration.value" },
+                    "classList.has('is-selected')": {"<-": "@sceneView.viewPoint == viewPoint"}
+                },
+                "listeners": [{
+                    "type": "action",
+                    "listener": {
+                        "@": "owner"
+                    }
+                }]
+            },            
+            "nav": {
+                "prototype": "montage/ui/repetition.reel",
+                "properties": {
+                    "element": { "#": "nav" },
+                    "content": [
+                        { "label": "Planet", "value": { "@": "planetVP" } },
+                        { "label": "Cabin", "value": { "@": "cabinVP" } },
+                        { "label": "Seagull", "value": { "@": "seaGullVP" } }
+                    ]
+                }
+            },
+            "substitution": {
+                "prototype": "montage/ui/substitution.reel",
+                "properties": {
+                    "element": {"#": "substitution"},
+                    "switchValue": "static"
+                },
+                "bindings": {
+                    "switchValue": {"<-": "@owner.viewKey"}
+                }                
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div data-montage-id="substitution">
+        <div data-arg="static">This demo requires WebGL. Please check your browser has WebGL supported and enabled
+        </div>
+    <div data-arg="webgl" data-montage-id="beachplanet" class="BeachPlanet isPlaying">
+        <div data-montage-id="sceneView"></div>
+        <aside class="BeachPlanet-panel">
+            <div class="BeachPlanet-cams">
+                <label class="BeachPlanet-cams-label">View</label>
+                <nav data-montage-id="nav" class="BeachPlanet-nav">
+                    <button data-montage-id="navItem" class="BeachPlanet-nav-item"></button>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
