@@ -2,12 +2,12 @@
   "name": "beachplanetblogpost",
   "version": "0.1.0",
   "dependencies": {
-    "matte": "~0.1.4",
+    "matte": "~0.2.0",
     "collections": "~0.2.2",
     "q": "~0.9.7",
-    "digit": "~0.4.0",
-    "mjs-volume": "git://github.com/fabrobinet/mjs-volume#e2192b13b2187a6d31379b3fa41dd02bd7683152",
-    "montage": "~0.13.12"
+    "digit": "~0.5.0",
+    "mjs-volume": "git://github.com/fabrobinet/mjs-volume",
+    "montage": "~0.14.0"
   },
   "bundle": ["ui/main.reel"]
 }
