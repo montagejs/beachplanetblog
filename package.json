@@ -4,8 +4,8 @@
   "dependencies": {
     "matte": "~0.2.0",
     "collections": "~1.2.2",
-    "q": "~0.9.7",
-    "digit": "~0.5.0",
+    "q": "~1.0.0",
+    "digit": "~0.5.1",
     "mjs-volume": "git://github.com/montagestudio/mjs-volume.git#beachplanet",
     "montage": "~0.15.0"
   },
