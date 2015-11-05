@@ -89,8 +89,8 @@
                     "element": { "#": "navItem" }
                 },
                 "bindings": {
-                    "label": { "<-": "@nav.objectAtCurrentIteration.label" },
-                    "viewPoint": { "<-": "@nav.objectAtCurrentIteration.value" },
+                    "label": { "<-": "@nav:iteration.object.label" },
+                    "viewPoint": { "<-": "@nav:iteration.object.value" },
                     "classList.has('is-selected')": {"<-": "@sceneView.viewPoint == viewPoint"}
                 },
                 "listeners": [{
