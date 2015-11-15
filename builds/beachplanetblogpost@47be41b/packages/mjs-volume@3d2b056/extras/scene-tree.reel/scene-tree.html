@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head>
+    <title></title>
+    <link rel=stylesheet type=text/css href=scene-tree.css>
+    <script type=text/montage-serialization>{"owner":{"properties":{"element":{"#":"sceneGraphTree"}},"bindings":{"selectedNode":{"<-":"@tree.selectedNode"},"treeController":{"<-":"@tree.treeController"},"rangeController":{"<-":"@tree.rangeController"}}},"tree":{"prototype":"./tree.reel","properties":{"element":{"#":"tree"}},"bindings":{"tree":{"<-":"@owner.sceneGraphTree"},"configuration":{"<-":"@owner.configuration"},"isCellDraggable":{"<-":"@owner.isCellDraggable"}}}}</script>
+</head>
+<body>
+    <div data-montage-id=sceneGraphTree class=SceneGraphTree>
+        <div data-montage-id=tree></div>
+    </div>
+
+
+</body></html>

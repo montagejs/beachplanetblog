@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/circular/complexPlugin/toolbar.html",{text:"<html><head></head><body>toolbarTemplate</body></html>"});

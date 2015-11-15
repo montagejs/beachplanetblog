@@ -1,0 +1,1 @@
+define(function(e,i){e("main"),i.name="helper"});

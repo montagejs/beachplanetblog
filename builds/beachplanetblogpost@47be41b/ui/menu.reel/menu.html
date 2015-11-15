@@ -1,0 +1,24 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <script type="text/montage-serialization">{"owner":{"properties":{"element":{"#":"beachplanet"}}},"scene":{"prototype":"mjs-volume/runtime/scene","properties":{"path":"/assets/3d/beachplanet/beachplanet.json"}},"planetVP":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node-Camera-planet","scene":{"@":"scene"}}},"cabinVP":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node-Camera_cabin","scene":{"@":"scene"}}},"seaGullVP":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node-Camera_SeaGull","scene":{"@":"scene"}}},"door":{"prototype":"mjs-volume/runtime/node","properties":{"id":"node_6","scene":{"@":"scene"}},"bindings":{"classList.has('animate')":{"<-":"true"},"classList.has('open')":{"<-":"@owner.doorOpen"}},"listeners":[{"type":"action","listener":{"@":"owner"}}]},"sceneView":{"prototype":"mjs-volume/ui/scene-view.reel","properties":{"allowsViewPointControl":false,"element":{"#":"sceneView"},"scene":{"@":"scene"},"viewPoint":{"@":"planetVP"}}},"navItem":{"prototype":"digit/ui/button.reel","properties":{"element":{"#":"navItem"}},"bindings":{"label":{"<-":"@nav:iteration.object.label"},"viewPoint":{"<-":"@nav:iteration.object.value"},"classList.has('is-selected')":{"<-":"@sceneView.viewPoint == viewPoint"}},"listeners":[{"type":"action","listener":{"@":"owner"}}]},"nav":{"prototype":"montage/ui/repetition.reel","properties":{"element":{"#":"nav"},"content":[{"label":"Planet","value":{"@":"planetVP"}},{"label":"Cabin","value":{"@":"cabinVP"}},{"label":"Seagull","value":{"@":"seaGullVP"}}]}},"substitution":{"prototype":"montage/ui/substitution.reel","properties":{"element":{"#":"substitution"},"switchValue":"static"},"bindings":{"switchValue":{"<-":"@owner.viewKey"}}}}</script>
+</head>
+
+<body>
+    <div data-montage-id="substitution">
+        <div data-arg="static">This demo requires WebGL. Please check your browser has WebGL supported and enabled
+        </div>
+    <div data-arg="webgl" data-montage-id="beachplanet" class="BeachPlanet isPlaying">
+        <div data-montage-id="sceneView"></div>
+        <aside class="BeachPlanet-panel">
+            <div class="BeachPlanet-cams">
+                <label class="BeachPlanet-cams-label">View</label>
+                <nav data-montage-id="nav" class="BeachPlanet-nav">
+                    <button data-montage-id="navItem" class="BeachPlanet-nav-item"></button>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    </div>
+
+
+</body></html>

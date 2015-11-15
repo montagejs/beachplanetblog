@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/packages/dojox/window/window",{dependencies:[],factory:function(){define(["./pane"],function(e){return{name:"dojox/window",paneName:e.name}})}});

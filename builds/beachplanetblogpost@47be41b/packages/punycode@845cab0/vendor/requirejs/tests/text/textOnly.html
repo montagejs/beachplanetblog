@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: Text Test</title>
+    <script src=../../require.js></script>
+    <script src=../doh/runner.js></script>
+    <script src=../doh/_browserRunner.js></script>
+    <script>require({baseUrl:"./",paths:{text:"../../text"}},["text!resources/sample.html!strip"],function(e){doh.register("textOnly",[function(i){i.is("<span>Hello World!</span>",e)}]),doh.run()});</script>
+</head>
+<body>
+    <h1>require.js: Text Test</h1>
+    <p>Test for usage of text! require plugin.
+    </p><p>Check console for messages</p>
+
+
+</body></html>

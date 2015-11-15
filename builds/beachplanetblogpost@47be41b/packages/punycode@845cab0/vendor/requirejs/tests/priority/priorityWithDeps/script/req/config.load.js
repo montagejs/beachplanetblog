@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/priority/priorityWithDeps/script/req/config",{dependencies:[],factory:function(){define("req/config",["req/begin"],function(){var e={test:"Hello require",state:"alpha"};return ip.config=e})}});

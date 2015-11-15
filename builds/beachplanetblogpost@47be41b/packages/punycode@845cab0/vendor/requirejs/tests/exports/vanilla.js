@@ -1,0 +1,1 @@
+define("vanilla",["require","exports","module"],function(e,i){i.name="vanilla"});

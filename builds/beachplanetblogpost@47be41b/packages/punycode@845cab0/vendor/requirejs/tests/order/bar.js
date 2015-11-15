@@ -1,0 +1,1 @@
+var bar=0;define(function(){return bar+=1,function(){bar+=2}});

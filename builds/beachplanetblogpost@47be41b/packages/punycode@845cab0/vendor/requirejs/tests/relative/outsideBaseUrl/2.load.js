@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/relative/outsideBaseUrl/2",{dependencies:[],factory:function(){define(["require","exports","module","./b/3"],function(e,i,t,s){return{name:"two",b3:s}})}});

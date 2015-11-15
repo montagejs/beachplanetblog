@@ -1,0 +1,1 @@
+define("funcThree",["funcFour"],function(){var e=function(e){return e+"-"+require("funcFour").suffix()};return e.suffix=function(){return"THREE_SUFFIX"},e});

@@ -1,0 +1,16 @@
+<html><head>
+    <title>require.js: Simple Bad Base Test</title>
+    <base href="http://some.example.com/path/">
+    <script src=http://127.0.0.1/requirejs/require.js></script>
+    <script src=http://127.0.0.1/requirejs/tests/doh/runner.js></script>
+    <script src=http://127.0.0.1/requirejs/tests/doh/_browserRunner.js></script>
+    <script>require({baseUrl:"http://127.0.0.1/requirejs/tests/"},["require","simple","dimple","func"],function(e,i,t,s){doh.register("simple",[function(e){e.is("blue",i.color),e.is("dimple-blue",t.color),e.is("You called a function",s())}]),doh.run()});</script>
+    <script>var path=location.href.replace(/simple-badbase\.html$/,"foo"),index=path.indexOf(":"),noProtocolPath=path.substring(index+1,path.length).replace(/foo/,"bar");require([path,noProtocolPath],function(){doh.register("fooBar",[function(e){e.is("foo",foo.name),e.is("bar",bar.name)}]),doh.run()});</script>
+</head>
+<body>
+    <h1>require.js: Simple Test</h1>
+    <p>You may need to change the IP address used for this test for it to work correctly.</p>
+    <p>Check console for messages</p>
+
+
+</body></html>

@@ -1,0 +1,40 @@
+{
+
+
+    "path_property": {
+        "prototype": "montage/core/meta/property-blueprint",
+        "properties": {
+            "name": "path",
+            "valueType": "resource",
+            "blueprint": {
+                "@": "root"
+            }
+        }
+    },
+
+    "root": {
+        "prototype": "montage/core/meta/module-blueprint",
+        "properties": {
+            "name": "Scene",
+            "propertyBlueprints": [
+                {
+                    "@": "path_property"
+                }
+            ],
+            "propertyBlueprintGroups": {
+                "Scene": [
+                    {
+                        "@": "path_property"
+                    }
+                ]
+            },
+            "blueprintModule": {
+                "%": "runtime/scene.meta"
+            },
+            "exportName": "Scene",
+            "module": {
+                "%": "runtime/scene"
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/packages/baz/lib/index",{dependencies:[],factory:function(){define(["bar","foo","./helper"],function(e,i,t){return{name:"baz",barDepVersion:e.version,fooName:i.name,helperName:t.name}})}});

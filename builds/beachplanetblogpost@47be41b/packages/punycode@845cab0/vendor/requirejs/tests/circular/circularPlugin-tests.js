@@ -1,0 +1,1 @@
+require({baseUrl:require.isBrowser?"./":"./circular"},["require","plugin!a"],function(e,i){doh.register("circularPlugin",[function(e){e.is("a",i.name),e.is("b",i.b.name),e.is("c",i.b.c.name)}]),doh.run()});

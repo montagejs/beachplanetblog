@@ -1,0 +1,1 @@
+define(["require","exports","module","test","a"],function(e){var i=e("test"),t=e("a"),s=t.foo;i.assert(t.foo()==t,"calling a module member"),i.assert(s()==function(){return this}(),"members not implicitly bound"),t.set(10),i.assert(10==t.get(),"get and set"),i.print("DONE","info")});

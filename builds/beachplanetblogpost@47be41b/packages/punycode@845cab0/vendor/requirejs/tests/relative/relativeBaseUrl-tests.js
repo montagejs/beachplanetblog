@@ -1,0 +1,1 @@
+require.relativeBaseUrlCounter=0,require({baseUrl:require.isBrowser?"./":"./relative/"},["./top","top"],function(e,i){doh.register("relativeBaseUrl",[function(t){t.is(e.id,i.id),t.is(1,require.relativeBaseUrlCounter),delete require.relativeBaseUrlCounter}]),doh.run()});

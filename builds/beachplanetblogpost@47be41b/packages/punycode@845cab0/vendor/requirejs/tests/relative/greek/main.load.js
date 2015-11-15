@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/relative/greek/main",{dependencies:[],factory:function(){define(function(e,i){i.name="greek"})}});

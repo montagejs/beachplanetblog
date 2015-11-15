@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/circular/complexPlugin/viewport",{dependencies:["slowText!viewport.html","toolbar"],factory:function(){define(function(e){return{name:"viewport",template:e("slowText!viewport.html"),toolbar:e("toolbar")}})}});

@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/index.html",{text:'<!DOCTYPE html><html><head>\n    <title>require.js: Tests</title>\n</head>\n<body>\n    <h1>require.js: Tests</h1>\n    <ol>\n        <li><a href="doh/runner.html?testUrl=../all">All Automated Tests</a>\n    </li></ol>\n\n\n</body></html>'});

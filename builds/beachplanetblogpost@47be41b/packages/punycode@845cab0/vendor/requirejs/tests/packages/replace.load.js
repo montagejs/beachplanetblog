@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/packages/replace",{dependencies:[],factory:function(){define({name:"fake/alpha/replace"})}});

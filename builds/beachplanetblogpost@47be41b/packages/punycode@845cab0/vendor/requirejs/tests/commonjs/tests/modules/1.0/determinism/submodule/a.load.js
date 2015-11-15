@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/commonjs/tests/modules/1.0/determinism/submodule/a",{dependencies:["test","a"],factory:function(){define(["require","exports","module","test","test","a"],function(e){var i=e("test"),t=!1,i=e("test");try{e("a")}catch(s){t=!0}i.assert(t,"require does not fall back to relative modules when absolutes are not available.")})}});

@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/nestedDefine/nestedDefine2",{dependencies:[],factory:function(e){e(["one"],function(t){define("nested",["two"],function(e){return{name:"nested",two:e}}),e(["nested"],function(e){doh.register("nestedDefine2",[function(i){i.is("one",t.name),i.is("two",e.two.name),i.is("nested",e.name)}]),doh.run()})})}});

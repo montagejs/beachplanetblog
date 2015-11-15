@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: urlFetch Mapping Test</title>
+    <script src=../../require.js></script>
+    <script src=../doh/runner.js></script>
+    <script src=../doh/_browserRunner.js></script>
+    <script>require({baseUrl:"./",paths:{one:"two",two:"two",three:"three",four:"three"}},["require","one","two","three","four"],function(e,i,t,s,a){doh.register("urlfetch",[function(e){for(var u,n,r=document.getElementsByTagName("script"),l={},u=r.length-1;u>-1;u--)n=r[u].href,n&&(n in l||(l[n]=0),l[n]+=1);for(prop in l)e.is(1,l[prop]);e.is("one",i.name),e.is("one",t.oneName),e.is("two",t.name),e.is("three",s.name),e.is("three",a.threeName),e.is("four",a.name)}]),doh.run()});</script>
+</head>
+<body>
+    <h1>require.js: urlFetch Mapping Test</h1>
+    <p>Make sure that multiple modules mapped to the same URL only get
+    the URL fetched once.</p>
+    <p>Check console for messages</p>
+
+
+</body></html>

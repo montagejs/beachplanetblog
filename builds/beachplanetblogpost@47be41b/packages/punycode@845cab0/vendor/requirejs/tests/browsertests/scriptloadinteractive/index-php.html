@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head>
+    <title>Script Load Interactive Test  (PHP used to delay two scripts)</title>
+    <script src=../common.js></script>
+    <script>function report(){var e,t;for(e=0;loadedScripts.length>e;e++)t=loadedScripts[e],log("module "+t.name+" === "+t.obj.name);callCount+=1,1===callCount&&(log("-------Trying cache hits now--------"),loadedScripts=[],setTimeout(loadUrls,500))}function finishScript(e,t){e&&(loadedScripts.push({name:e.getAttribute("data-name").replace(/\.js$/,""),obj:t()}),9===loadedScripts.length&&report())}function onTestScriptLoad(e){var t=e.target||e.srcElement;("load"===e.type||readyRegExp.test(t.readyState))&&(useInteractive||finishScript(t,waitingFunc),t.removeEventListener?t.removeEventListener("load",onTestScriptLoad,!1):t.detachEvent("onreadystatechange",onTestScriptLoad))}function attachScript(e,t){noCache&&(e+="?stamp="+(new Date).getTime());var i=document.createElement("script");i.src=e,i.type="text/javascript",i.charset="utf-8",i.setAttribute("data-name",t),i.addEventListener?i.addEventListener("load",onTestScriptLoad,!1):(useInteractive=!0,i.attachEvent("onreadystatechange",onTestScriptLoad)),currentlyAddingScript=i,document.getElementsByTagName("head")[0].appendChild(i),currentlyAddingScript=null}function def(e){var t,i,a=currentlyAddingScript;if(useInteractive){t=document.getElementsByTagName("script");var s=[];for(i=t.length-1;i>-1;i--)if(s.push(i+t[i].readyState+t[i].src),"interactive"===t[i].readyState){a=t[i];break}a||(log("ERROR: No matching script interactive for "+e),log("script readyStates are: "+s)),finishScript(a,e)}else waitingFunc=e}var noCache=-1!==location.href.indexOf("nocache");log("noCache: "+noCache);var readyRegExp=/complete|loaded/,useInteractive=!1,loadedScripts=[],callCount=0,currentlyAddingScript,waitingFunc,loadUrls,urls=["one.js","two.js","three.js","four.php","five.js","six.php","seven.js","eight.js","nine.js"];loadUrls=function(){for(var e,t=0;e=urls[t];t++)attachScript(e,e)},loadUrls();</script>
+</head>
+<body>
+    <h1>Script Load Interactive Test (PHP used to delay two scripts)</h1>
+
+    <p>This test checks to see if a function call can be associated with a specific script tag.</p>
+    <p>For non-IE 6-8 browsers, the script onload event may not fire right after the the script
+    is evaluated. Kris Zyp found for IE though that in a function call that is called while the
+    script is executed, it could query the script nodes and the one that is in "interactive" mode
+    indicates the current script.</p>
+    <p>So this test tries to see to use interactive state if possible, and if that does not work,
+    falls back to using script onload to associate the scripts.</p>
+    <p>Check the console for output. Expected result, all scripts are matched up with their calls.</p>
+
+
+</body></html>

@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/priority/flower",{dependencies:[],factory:function(){define(function(){return{name:"flower"}})}});

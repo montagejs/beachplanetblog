@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/plugins/prime/earth",{dependencies:["../index!0?./a:./b:./c","../index!2?./a:./b:./c","../index!1?./a:./b:./c"],factory:function(){define(function(e){return{getA:function(){return e("../index!0?./a:./b:./c")},getC:function(){return e("../index!2?./a:./b:./c")},getB:function(){return e("../index!1?./a:./b:./c")}}})}});

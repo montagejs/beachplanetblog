@@ -1,0 +1,1 @@
+define(function(e,i){i.name="greek"});

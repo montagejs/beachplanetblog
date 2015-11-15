@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/funcOne",{dependencies:["funcTwo"],factory:function(){define("funcOne",["require","funcTwo"],function(e){var i=function(e){this.name=e};return i.prototype.getName=function(){var i=new(e("funcTwo"))("-NESTED");return this.name+i.name},i})}});

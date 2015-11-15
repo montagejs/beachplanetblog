@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/afterloadreadystate",{dependencies:[],factory:function(){doh.is("complete",document.readyState),d.callback(!0)}});

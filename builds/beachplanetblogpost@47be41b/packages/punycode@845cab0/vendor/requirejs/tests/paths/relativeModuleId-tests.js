@@ -1,0 +1,1 @@
+require({baseUrl:"./",paths:{array:"impl/array"}},["require","array"],function(e,i){doh.register("relativeModuleId",[function(e){e.is("impl/array",i.name),e.is("util",i.utilName)}]),doh.run()});

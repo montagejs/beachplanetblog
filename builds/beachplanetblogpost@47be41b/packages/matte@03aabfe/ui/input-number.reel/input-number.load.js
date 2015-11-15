@@ -1,0 +1,1 @@
+montageDefine("03aabfe","ui/input-number.reel/input-number",{dependencies:["native/ui/input-number.reel"],factory:function(e,t){var i=e("native/ui/input-number.reel").InputNumber;t.InputNumber=i.specialize({hasTemplate:{value:!0},constructor:{value:function(){this.super(),this.classList.add("matte-InputNumber"),this.classList.add("matte-InputText")}}})}});

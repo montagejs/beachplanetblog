@@ -1,0 +1,1 @@
+var HTTP=require("../http"),URL=require("url2"),Q=require("q");exports.Proxy=function(e){if("string"==typeof e){var t=e;e=function(e){return e.url=t,e}}return function(){return Q.when(e.apply(this,arguments),function(e){return HTTP.request(e)})}},exports.ProxyTree=function(e){return exports.Proxy(function(t){return t.url=URL.resolve(e,t.pathInfo.replace(/^\//,"")),t})};

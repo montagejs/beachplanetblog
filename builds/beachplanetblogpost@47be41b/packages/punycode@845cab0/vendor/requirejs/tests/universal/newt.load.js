@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/universal/newt",{dependencies:["tail","eye"],factory:function(e,i,t){(function(e){e(function(e){var i=e("tail"),t=e("eye");return{name:"newt",eyeName:t.name,tailName:i.name}})})("function"==typeof define&&define.amd?define:function(i,s){t!==void 0&&t.exports?t.exports=s(e):window.myGlobal=s(function(e){return window[e]})})}});

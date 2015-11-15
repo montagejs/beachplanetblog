@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/plugins/b",{dependencies:[],factory:function(){define(function(){return{name:"b"}})}});

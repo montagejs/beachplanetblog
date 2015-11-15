@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/commonjs/tests/modules/1.0/exactExports/a",{dependencies:["program"],factory:function(){define(["require","exports","module","program"],function(e,i){i.program=function(){return e("program")}})}});

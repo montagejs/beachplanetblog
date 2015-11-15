@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/universal/eye",{dependencies:[],factory:function(e,i,t){!function(e,i){t!==void 0?t.exports=i():"function"==typeof define&&"object"==typeof define.amd?define(e,i):this[e]=i()}("eye",function(){return{name:"eye"}})}});

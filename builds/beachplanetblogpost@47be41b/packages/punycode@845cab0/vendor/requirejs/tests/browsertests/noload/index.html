@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head>
+    <title>Script noload Test</title>
+    <script src=../common.js></script>
+    <script>function onTestScriptLoad(e){var t=e.target||e.srcElement;("load"===e.type||readyRegExp.test(t.readyState))&&(log(t.getAttribute("data-name")+" loaded"),t.removeEventListener?t.removeEventListener("load",onTestScriptLoad,!1):t.detachEvent("onreadystatechange",onTestScriptLoad))}function onTestError(e){var t=e.target||e.srcElement,n=t.getAttribute("data-name");"undefined"!=typeof console&&console.log&&console.log(n+" has error event: ",e),log(n+" onerror triggered"),t.removeEventListener?t.removeEventListener("error",onTestError,!1):t.detachEvent("onerror",onTestError)}function attachScript(e,t){var n=document.createElement("script");n.src=e,n.type="text/javascript",n.charset="utf-8",n.setAttribute("data-name",t),n.addEventListener?(n.addEventListener("load",onTestScriptLoad,!1),n.addEventListener("error",onTestError,!1)):(n.attachEvent("onreadystatechange",onTestScriptLoad),n.attachEvent("onerror",onTestError)),document.getElementsByTagName("head")[0].appendChild(n)}var readyRegExp=/complete|loaded/;attachScript("404.js","404");var url505=location.protocol+"//"+location.hostname+":9320/505.js";attachScript(url505,"505");var noServerUrl=location.protocol+"//"+location.hostname+":9321/noserver.js";attachScript(noServerUrl,"no server");</script>
+</head>
+<body>
+    <h1>Script noload Test</h1>
+
+    <p>Test if HTTP 404 or 500 calls or down hosts for a script trigger a scripts error handler.</p>
+
+    <p>For this test to receive 500 responses, nodejs needs to run server.js in this directory.</p>
+
+    <p>Output below should be "404 onerror triggered", "500 onerror triggered" and "no server onerror triggered".
+    They may be in a different order, but that is OK.</p>
+
+
+
+
+</body></html>

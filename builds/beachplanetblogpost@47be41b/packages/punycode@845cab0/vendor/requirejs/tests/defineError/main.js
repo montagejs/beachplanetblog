@@ -1,0 +1,1 @@
+define(["error"],function(e){return{name:"main",errorName:e&&e.name}});

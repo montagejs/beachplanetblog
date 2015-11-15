@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/browsertests/scriptloadinteractiveattach/three",{dependencies:[],factory:function(){def(function(){return{name:"three"}})}});

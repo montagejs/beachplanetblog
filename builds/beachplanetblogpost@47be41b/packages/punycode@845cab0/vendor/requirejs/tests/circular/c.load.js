@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/circular/c",{dependencies:[],factory:function(){define(["a","exports"],function(e,i){i.name="c",i.a=e})}});

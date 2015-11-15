@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/commonjs/tests/modules/1.0/monkeys/program",{dependencies:["a","test"],factory:function(){define(["require","exports","module","a","test"],function(e,i){e("a");var t=e("test");t.assert(10==i.monkey,"monkeys permitted"),t.print("DONE","info")})}});

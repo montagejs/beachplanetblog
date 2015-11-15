@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/priority/priorityWithDeps/script/req/bootstrap",{dependencies:[],factory:function(){define("req/bootstrap",["req/begin","req/config","req/utils/utils"],function(){ip.bootstrap="bootstrap"})}});

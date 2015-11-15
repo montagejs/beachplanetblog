@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/packages/funky/lib/monkey",{dependencies:[],factory:function(){define({name:"monkey"})}});

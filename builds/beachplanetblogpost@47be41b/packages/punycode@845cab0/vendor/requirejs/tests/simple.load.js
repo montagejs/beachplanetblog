@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/simple",{dependencies:[],factory:function(){define("simple",function(){return{color:"blue"}})}});

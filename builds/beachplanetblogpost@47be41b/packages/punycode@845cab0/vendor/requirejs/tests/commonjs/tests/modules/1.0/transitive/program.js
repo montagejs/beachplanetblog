@@ -1,0 +1,1 @@
+define(["require","exports","module","test","a"],function(e){var i=e("test");i.assert(1==e("a").foo(),"transitive"),i.print("DONE","info")});

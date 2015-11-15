@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/exports/am",{dependencies:[],factory:function(){define(["bm","cm","module","exports"],function(e,i,t,s){s.name="am",s.bName=e.name,s.cName=i.name})}});

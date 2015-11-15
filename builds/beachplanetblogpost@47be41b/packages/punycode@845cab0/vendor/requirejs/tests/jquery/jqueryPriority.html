@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head>
+        <title>jQuery+RequireJS Priority Test Page</title>
+        <script src=../../require.js></script>
+        <script src=../doh/runner.js></script>
+        <script src=../doh/_browserRunner.js></script>
+        <script>require({baseUrl:"./scripts/",paths:{jquery:"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min"},priority:["jquery"]},["app"],function(){doh.register("jqueryPriority",[function(e){e.is("alpha",$().alpha()),e.is("beta",$().beta())}]),doh.run()});</script>
+    </head>
+    <body>
+        <h1>jQuery+RequireJS Priority Test Page</h1>
+        <p>Tests loading of jquery plugins with require.</p>
+    
+
+</body></html>

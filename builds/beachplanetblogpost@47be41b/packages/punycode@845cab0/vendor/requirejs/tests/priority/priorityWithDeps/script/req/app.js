@@ -1,0 +1,1 @@
+define("Carousel",function(){return function(e){this.service=e,this.someType="Carousel"}}),define("app",["Carousel"],function(){});

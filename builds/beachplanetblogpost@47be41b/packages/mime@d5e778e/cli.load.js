@@ -1,0 +1,1 @@
+montageDefine("d5e778e","cli",{dependencies:["./mime.js"],factory:function(e){var i=e("./mime.js"),t=process.argv[2],s=i.lookup(t);process.stdout.write(s+"\n")}});

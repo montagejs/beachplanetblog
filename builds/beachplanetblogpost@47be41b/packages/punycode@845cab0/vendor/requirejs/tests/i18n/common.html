@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: Common I18N Test</title>
+    <script src=../../require.js></script>
+    <script src=../doh/runner.js></script>
+    <script src=../doh/_browserRunner.js></script>
+    <script>var locale=null,query=location.href.split("#")[0].split("?")[1],match=query&&query.match(/locale=([\w-]+)/);match&&(locale=match[1]);var red="red",blue="blue";locale&&-1!=locale.indexOf("en-us-surfer")?red="red, dude":locale&&-1!=locale.indexOf("fr-")&&(red="rouge",blue="bleu"),require({locale:locale,baseUrl:"./",paths:{i18n:"../../i18n"}},["commonA","commonB"],function(e,i){doh.register("commoni18n",[function(t){t.is(red,e),t.is(blue,i)}]),doh.run()});</script>
+</head>
+<body>
+    <h1>Common i18n bundle test</h1>
+    <p>This page tests for an i18n plugin resource that is specified by two different modules.</p>
+
+
+</body></html>

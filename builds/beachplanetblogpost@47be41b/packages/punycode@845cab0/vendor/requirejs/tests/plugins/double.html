@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: Double Plugin Call Test</title>
+    <script src=../doh/runner.js></script>
+    <script src=../doh/_browserRunner.js></script>
+    <script src=../../require.js></script>
+    <script>function done(){count+=1,2===count&&master.callback(!0)}var master=new doh.Deferred,count=0;doh.register("doublePluginCall",[{name:"doublePluginCall",timeout:5e3,runTest:function(){return master}}]),doh.run(),require(["double!foo"],function(e){"x"===e&&done()}),require(["double!foo"],function(e){"x"===e&&done()});</script>
+</head>
+<body>
+    <h1>require.js: Double Plugin Call Test</h1>
+    <p>Check console for messages</p>
+
+
+</body></html>

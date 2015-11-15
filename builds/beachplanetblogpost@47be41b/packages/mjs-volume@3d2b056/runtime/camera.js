@@ -1,0 +1,1 @@
+var Base=require("runtime/base").Base;exports.Camera=Object.create(Base,{_projection:{value:null,writable:!0},projection:{get:function(){return this._projection},set:function(t){this._projection=t}},init:{value:function(){return this.__Base_init(),this}}});

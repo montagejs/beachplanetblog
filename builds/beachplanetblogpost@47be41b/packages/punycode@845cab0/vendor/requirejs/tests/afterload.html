@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: After Load</title>
+    <script src=doh/runner.js></script>
+    <script src=doh/_browserRunner.js></script>
+    <script>function goRequire(){var e=parseFloat(navigator.userAgent.split("Firefox/")[1])||null;e&&3.6>e&&require.pageLoaded(),require({paths:{domReady:"../domReady"}},["require","simple","domReady"],function(e,t,n){n(function(){doh.is("blue",t.color);var e=document.createElement("script");e.src="afterloadreadystate.js",e.charset="utf-8",head.appendChild(e)})})}function loadRequire(){function e(n){var i=n.target||n.srcElement;("load"===n.type||t.test(i.readyState))&&(i.removeEventListener?i.removeEventListener("load",e,!1):i.detachEvent("onreadystatechange",e),goRequire())}var t=/complete|loaded/;s=document.createElement("script"),s.src="../require.js",s.charset="utf-8",s.addEventListener?s.addEventListener("load",e,!1):s.attachEvent("onreadystatechange",e),head=document.getElementsByTagName("head")[0]||document.getElementsByTagName("html")[0],head.appendChild(s)}var d,s,head;doh.register("afterload",[{name:"afterload",timeout:5e3,runTest:function(){return d=new doh.Deferred}}]),doh.run();</script>
+</head>
+<body onload=loadRequire()>
+    <h1>require.js: After Load Test</h1>
+    <p>Tests adding require after the page loads, and tests that require.js patches
+    up document.readyState for Firefox less than 3.6.</p>
+    <p>Check console for messages</p>
+
+
+</body></html>

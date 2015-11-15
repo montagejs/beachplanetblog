@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: Config Test</title>
+    <script src=doh/runner.js></script>
+    <script src=doh/_browserRunner.js></script>
+    <script>function done(){doh.register("config",[function(e){e.is("blue",s.color),e.is("dimple-blue",d.color),e.is("You called a function",f())}]),doh.run()}var s,d,f,require={baseUrl:"./",paths:{domReady:"../domReady"},deps:["require","simple","dimple","func","domReady!"],callback:function(e,i,t,a){s=i,d=t,f=a,done()}};</script>
+    <script src=../require.js></script>
+</head>
+<body>
+    <h1>require.js: Config Test</h1>
+    <p>Tests require being defined as an object with init and domReady plugin usage in configuration.</p>
+    <p>Check console for messages.</p>
+
+
+</body></html>

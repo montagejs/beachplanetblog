@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/domReady/two",{dependencies:[],factory:function(){define({addToDom:function(){var e=document.createElement("div");e.id="two",e.setAttribute("data-name","two"),document.getElementsByTagName("body")[0].appendChild(e)}})}});

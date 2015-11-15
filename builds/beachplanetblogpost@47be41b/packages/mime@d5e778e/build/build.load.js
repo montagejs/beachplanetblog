@@ -1,0 +1,1 @@
+montageDefine("d5e778e","build/build",{dependencies:["mime-db"],factory:function(e){var i=e("mime-db"),t={};Object.keys(i).forEach(function(e){var s=i[e].extensions;s&&(t[e]=s)}),console.log(JSON.stringify(t))}});

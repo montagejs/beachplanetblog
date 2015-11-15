@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/text/local",{dependencies:[],factory:function(){define(["text!./resources/local.html"],function(e){return{localHtml:e}})}});

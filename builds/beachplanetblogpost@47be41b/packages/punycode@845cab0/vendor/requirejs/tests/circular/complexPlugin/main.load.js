@@ -1,0 +1,1 @@
+montageDefine("845cab0","vendor/requirejs/tests/circular/complexPlugin/main",{dependencies:[],factory:function(){define(["exports","viewport","helper"],function(e,i,t){e.name="main",e.viewport=i,e.helper=t})}});

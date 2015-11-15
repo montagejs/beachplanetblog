@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head>
+    <title>require.js: paths Test</title>
+    <script src=../../require.js></script>
+    <script src=../doh/runner.js></script>
+    <script src=../doh/_browserRunner.js></script>
+    <script>var globalCounter=0,scriptCounter=0;require({baseUrl:"./",packages:[{name:"first",location:"first.js",main:"./first"}]},["require","first!whatever"],function(e,i){doh.register("paths",[function(e){for(var t,s,a=document.getElementsByTagName("script"),t=a.length-1;t>-1;t--)s=a[t].getAttribute("data-requiremodule"),(s&&"first"===s||"first/first"===s)&&(scriptCounter+=1);e.is(1,scriptCounter),e.is(2,globalCounter),e.is("first",i.name),e.is("second",i.secondName)}]),doh.run()});</script>
+</head>
+<body>
+    <h1>require.js: paths Test</h1>
+    <p>Check console for messages</p>
+
+
+</body></html>
