@@ -1,1 +1,0 @@
-importScripts("../require.js"),require({baseUrl:"./"},["require","simple","anon/blue","func","anon/green"],function(e,i,t,s,a){postMessage(i.color),postMessage(a.name),postMessage(s()),postMessage(t.name)});

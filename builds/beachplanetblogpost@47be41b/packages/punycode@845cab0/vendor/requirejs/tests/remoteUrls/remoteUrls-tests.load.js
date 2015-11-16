@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/remoteUrls/remoteUrls-tests",{dependencies:[],factory:function(e){e({baseUrl:e.isBrowser?"./":"./remoteUrls/"},["require","jqwrap"],function(e,i){doh.register("remoteUrls",[function(e){e.is(!0,i.isFunction)}]),doh.run()})}});

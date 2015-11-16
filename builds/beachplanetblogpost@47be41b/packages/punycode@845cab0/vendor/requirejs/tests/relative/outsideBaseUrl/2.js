@@ -1,1 +1,0 @@
-define(["require","exports","module","./b/3"],function(e,i,t,s){return{name:"two",b3:s}});

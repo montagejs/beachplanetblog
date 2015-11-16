@@ -1,1 +1,0 @@
-montageDefine("3d2b056","runtime/camera",{dependencies:["runtime/base"],factory:function(t,e){var n=t("runtime/base").Base;e.Camera=Object.create(n,{_projection:{value:null,writable:!0},projection:{get:function(){return this._projection},set:function(t){this._projection=t}},init:{value:function(){return this.__Base_init(),this}}})}});

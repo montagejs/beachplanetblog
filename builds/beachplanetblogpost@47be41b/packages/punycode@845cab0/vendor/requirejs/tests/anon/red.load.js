@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/anon/red",{dependencies:[],factory:function(){define("red",function(){return{name:"red"}})}});

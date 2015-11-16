@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/packages/pkgs/alpha/main",{dependencies:[],factory:function(){define({name:"alpha"})}});

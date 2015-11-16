@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/urlfetch/three",{dependencies:[],factory:function(){define("three",{name:"three"}),define("four",["three"],function(){return{name:"four",threeName:"three"}})}});

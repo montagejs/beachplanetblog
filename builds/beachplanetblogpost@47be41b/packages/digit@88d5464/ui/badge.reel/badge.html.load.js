@@ -1,1 +1,0 @@
-montageDefine("88d5464","ui/badge.reel/badge.html",{text:"<!DOCTYPE html><html><head>\n    <title></title>\n    <link rel=stylesheet type=text/css href=badge.css>\n</head>\n<body>\n\n\n</body></html>"});

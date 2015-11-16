@@ -1,1 +1,0 @@
-define(["./first"],function(){return function(e,i,t){t({name:"first",secondName:"second"})}});

@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/map",{dependencies:[],factory:function(){define("map",function(){return{name:"map"}})}});

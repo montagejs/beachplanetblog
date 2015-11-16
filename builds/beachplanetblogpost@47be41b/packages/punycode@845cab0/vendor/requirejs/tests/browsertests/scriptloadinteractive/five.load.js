@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/browsertests/scriptloadinteractive/five",{dependencies:[],factory:function(){def(function(){return{name:"five"}})}});

@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/plugins/prime/c",{dependencies:[],factory:function(){define({name:"cPrime"})}});

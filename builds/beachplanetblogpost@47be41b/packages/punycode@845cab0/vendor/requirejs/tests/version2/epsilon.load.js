@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/version2/epsilon",{dependencies:[],factory:function(){epsilon={color:"red"}}});

@@ -1,1 +1,0 @@
-define(["./pistons","./sparkplugs"],function(e,i){return{name:"engine",pistonsName:e.name,sparkplugsName:i.name}});

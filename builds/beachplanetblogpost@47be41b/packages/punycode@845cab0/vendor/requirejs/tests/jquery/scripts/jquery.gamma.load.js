@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/jquery/scripts/jquery.gamma",{dependencies:[],factory:function(){(function(){function e(e){e.fn.gamma=function(){return"gamma"},e(function(){doh.is("gamma",e("body").gamma()),readyFired()})}"undefined"!=typeof define&&define.amd?define(["jquery"],e):"undefined"!=typeof jQuery&&e(jQuery)})()}});

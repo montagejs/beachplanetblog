@@ -1,1 +1,0 @@
-require("./deprecate").deprecationWarning("montage/core/bindings","montage/core/core"),exports.Bindings=require("frb");

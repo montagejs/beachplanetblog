@@ -1,1 +1,0 @@
-define(function(e){var t=e("a");return{name:"c",aName:t.name}});

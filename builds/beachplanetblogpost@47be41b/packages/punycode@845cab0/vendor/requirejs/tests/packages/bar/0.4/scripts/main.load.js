@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/packages/bar/0.4/scripts/main",{dependencies:[],factory:function(){define({name:"bar",version:"0.4"})}});

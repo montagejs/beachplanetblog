@@ -1,1 +1,0 @@
-var Repetition=require("montage/ui/repetition.reel/repetition").Repetition;exports.RepetitionTree=Repetition.specialize({constructor:{value:function(){this.super()}},hasTemplate:{value:!1},draw:{value:function(){if(this.super(),this.selectedIterations){var t=this.selectedIterations[0];if(t){var e=t.firstElement;e&&e.scrollIntoViewIfNeeded()}}}}});

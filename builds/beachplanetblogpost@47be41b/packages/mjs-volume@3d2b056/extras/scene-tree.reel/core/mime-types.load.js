@@ -1,1 +1,0 @@
-montageDefine("3d2b056","extras/scene-tree.reel/core/mime-types",{dependencies:[],factory:function(t,e){e.TEXT_PLAIN="text/plain"}});

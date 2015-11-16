@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/circular/complexPlugin/toolbar",{dependencies:["slowText!toolbar.html"],factory:function(){define(function(e){return{name:"toolbar",template:e("slowText!toolbar.html")}})}});

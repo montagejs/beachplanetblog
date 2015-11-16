@@ -1,1 +1,0 @@
-exports.TEXT_PLAIN="text/plain";

@@ -1,1 +1,0 @@
-define(function(e,t){var n=e("red"),i=e("./blue"),r=e("text!./message.txt");t.name=n.name+i.name,t.path=e.toUrl("./foo.html"),t.message=r});

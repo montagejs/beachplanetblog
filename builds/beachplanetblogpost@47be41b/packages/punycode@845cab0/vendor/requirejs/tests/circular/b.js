@@ -1,1 +1,0 @@
-define(["c","exports"],function(e,i){i.name="b",i.c=e});

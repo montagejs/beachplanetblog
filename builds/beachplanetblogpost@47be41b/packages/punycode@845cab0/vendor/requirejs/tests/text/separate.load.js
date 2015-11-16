@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/text/separate",{dependencies:[],factory:function(){define(["text!resources/sample.html!strip"],function(){})}});

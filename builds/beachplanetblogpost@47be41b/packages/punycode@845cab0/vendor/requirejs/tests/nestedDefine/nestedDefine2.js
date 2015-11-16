@@ -1,1 +1,0 @@
-require(["one"],function(e){define("nested",["two"],function(e){return{name:"nested",two:e}}),require(["nested"],function(t){doh.register("nestedDefine2",[function(i){i.is("one",e.name),i.is("two",t.two.name),i.is("nested",t.name)}]),doh.run()})});

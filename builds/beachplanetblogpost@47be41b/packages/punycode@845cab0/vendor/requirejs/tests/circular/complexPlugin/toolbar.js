@@ -1,1 +1,0 @@
-define(function(e){return{name:"toolbar",template:e("slowText!toolbar.html")}});

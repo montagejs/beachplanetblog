@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/anon/sub/b",{dependencies:[],factory:function(){define(function(e,t){t.f=function(){return"sub/b"}})}});

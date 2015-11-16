@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/packages/pkgs/dojox/table/legs",{dependencies:[],factory:function(){define({name:"dojox/table/legs"})}});

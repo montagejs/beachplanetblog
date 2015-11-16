@@ -1,1 +1,0 @@
-var Montage=require("../core").Montage,Converter=require("./converter").Converter;exports.UpperCaseConverter=Converter.specialize({_convert:{value:function(t){return t&&"string"==typeof t?t.toUpperCase?t.toUpperCase():t:t}},convert:{value:function(t){return this._convert(t)}},revert:{value:function(t){return this._convert(t)}}});

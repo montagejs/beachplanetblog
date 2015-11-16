@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/commonjs/tests/modules/1.0/relative/submodule/a",{dependencies:["./b"],factory:function(){define(["require","exports","module","./b"],function(e,i){i.foo=e("./b").foo})}});

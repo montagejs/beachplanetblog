@@ -56,7 +56,8 @@
 
     <title>BeachPlanet</title>
     
-    <script src="node_modules/montage/montage.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/load.js/1316434407/load-min.js"></script>
+    <script src='loader.js'></script>
     <script type="text/montage-serialization">
     {
         "owner": {
@@ -64,21 +65,16 @@
         }
     }
     </script>
-    <script type='text/javascript' src='loader.js'></script>
 </head>
 
-<body style='background-color:rgba(0,20,50,1.0)'>
-
-<div class="loading" style='text-align:center;padding:100px;color:#FFF'>
-    Loading...
-</div>
-</body>
+<body style='background-color:hsl(203, 100%, 71%)'></body>
 
 <script type='text/javascript'>
-
-var my_loader = new Loader();
-document.onmousedown = function () {my_loader.stop();}
-
+    var nextGenLoader = new Loader();
+    window.setTimeout(function () {
+        nextGenLoader.stop();
+        load("node_modules/montage/montage.js");
+    }, 3000);
 </script>
 
 </html>

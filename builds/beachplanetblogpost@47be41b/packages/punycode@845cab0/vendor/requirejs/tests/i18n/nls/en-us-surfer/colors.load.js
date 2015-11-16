@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/i18n/nls/en-us-surfer/colors",{dependencies:[],factory:function(){define({red:"red, dude"})}});

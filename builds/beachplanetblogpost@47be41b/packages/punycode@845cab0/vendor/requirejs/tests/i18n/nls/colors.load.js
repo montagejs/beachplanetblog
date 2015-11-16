@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/i18n/nls/colors",{dependencies:[],factory:function(){define({root:{red:"red",blue:"blue",green:"green"},"en-us-surfer":!0,fr:!0})}});

@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/browsertests/scriptload/seven",{dependencies:[],factory:function(){log("seven.js script")}});

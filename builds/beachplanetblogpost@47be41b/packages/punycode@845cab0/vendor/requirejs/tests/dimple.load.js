@@ -1,1 +1,0 @@
-montageDefine("845cab0","vendor/requirejs/tests/dimple",{dependencies:[],factory:function(){define("dimple",{color:"dimple-blue"})}});
