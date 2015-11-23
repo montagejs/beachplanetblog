@@ -7,7 +7,7 @@
     "q": "~1.0.0",
     "digit": "~0.5.1",
     "mjs-volume": "git://github.com/montagestudio/mjs-volume.git#beachplanet",
-    "montage": "~0.15.0"
+    "montage": "thibaultzanini/montage#loader-fix"
   },
   "bundle": ["ui/main.reel"]
 }

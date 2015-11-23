@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    font-family: 'Acme', sans-serif;
+    color: #333;
+    background-color: hsl(203, 100%, 71%); /* RBG: 108 198 258 */
+}
+
+body {
+    height: 100%;
+    margin: 0;
+   /* background-color:black;*/
+}
+
+.loading {
+    text-align: center;
+    font-size: 2em;
+    line-height: 10em; /* fallback */
+    line-height: 100vh;
+    color: #fff;
+    text-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.25);
+}
