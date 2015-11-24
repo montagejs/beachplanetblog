@@ -6,7 +6,7 @@
     "collections": "~1.2.2",
     "q": "~1.0.0",
     "digit": "~0.5.1",
-    "mjs-volume": "git://github.com/montagestudio/mjs-volume.git#beachplanet",
+    "mjs-volume": "montagestudio/mjs-volume#beachplanet",
     "montage": "thibaultzanini/montage#loader-fix"
   },
   "bundle": ["ui/main.reel"]

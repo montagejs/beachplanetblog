@@ -8,14 +8,15 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color:black;
+    /*background-color:black;*/
 }
 
-.loading {
+/*.loading {
     text-align: center;
     font-size: 2em;
-    line-height: 10em; /* fallback */
+    line-height: 10em;
     line-height: 100vh;
     color: #fff;
     text-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.25);
 }
+*/
