@@ -2,7 +2,8 @@ html {
     height: 100%;
     font-family: 'Acme', sans-serif;
     color: #333;
-    background-color: hsl(203, 100%, 71%); /* RBG: 108 198 258 */
+    background-color:black;
+     /* RBG: 108 198 258 */
 }
 
 body {
